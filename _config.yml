@@ -1,0 +1,37 @@
+# GitHub Pages Jekyll config — PronoGo legal docs hosting
+# Repo public dédié : URL https://mehdibou7a.github.io/pronogo-legal/
+
+title: PronoGo Legal
+description: Privacy Policy & Terms of Service — PronoGo
+
+# Markdown engine + extensions GFM (tables, autolinks).
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Theme minimal officiel GitHub (auto-deployed sans build personnalisé).
+theme: jekyll-theme-minimal
+
+# Repo metadata (utile pour le theme).
+github:
+  is_project_page: true
+  owner_name: MehdiBou7a
+  repository_name: pronogo-legal
+
+# URLs : pas de date dans le permalink, juste le nom du fichier.
+permalink: /:path/:basename/
+
+# Exclude README + autres meta files de la publication Pages.
+exclude:
+  - README.md
+  - "*.yml"
+  - "*.lock"
+
+# Active les pages par défaut sans front matter.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
