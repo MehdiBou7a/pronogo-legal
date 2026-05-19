@@ -170,4 +170,4 @@ For any questions or requests:
 
 ---
 
-*PronoGo is an independent project. The application is published by an individual in the context of non-commercial activity (or: specify your actual legal status — sole proprietor, company, etc., to update before launch).*
+*PronoGo is an independent project published by **Mehdi Bouhaouala**, natural person (private individual), resident in Courbevoie, France. The application is made available free of charge and on a non-commercial basis. The publisher does not receive any direct or indirect monetary income from the use of the application in V1.*

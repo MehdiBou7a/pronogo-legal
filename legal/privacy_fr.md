@@ -170,4 +170,4 @@ Pour toute question ou demande :
 
 ---
 
-*PronoGo est un projet indépendant. L'application est éditée par un particulier dans le cadre d'une activité non-commerciale (ou : précisez votre statut juridique réel — auto-entrepreneur, SAS, etc., à mettre à jour avant launch).*
+*PronoGo est un projet indépendant édité par **Mehdi Bouhaouala**, personne physique (particulier), domicilié à Courbevoie, France. L'application est mise à disposition à titre gratuit et non-commercial. L'éditeur ne perçoit aucun revenu monétaire direct ou indirect lié à l'utilisation de l'application en V1.*

@@ -226,4 +226,4 @@ Pour toute question concernant ces CGU :
 
 ---
 
-*Les présentes CGU sont fournies à titre informatif. Pour les utilisations professionnelles ou commerciales de l'Application, une révision par un avocat spécialisé est recommandée avant publication officielle.*
+*PronoGo est édité par **Mehdi Bouhaouala**, personne physique (particulier), domicilié à Courbevoie, France. L'application est mise à disposition à titre gratuit et non-commercial. Les présentes CGU seront mises à jour si le statut éditeur évolue (auto-entrepreneur, société) ou si des fonctionnalités payantes (IAP, publicité) sont activées.*

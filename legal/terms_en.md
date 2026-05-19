@@ -226,4 +226,4 @@ For any questions about these ToS:
 
 ---
 
-*These ToS are provided for informational purposes. For professional or commercial use of the Application, review by a specialized lawyer is recommended before official publication.*
+*PronoGo is published by **Mehdi Bouhaouala**, natural person (private individual), resident in Courbevoie, France. The application is made available free of charge and on a non-commercial basis. These ToS will be updated if the publisher's status changes (sole proprietor, company) or if paid features (IAP, advertising) are activated.*
