@@ -6,8 +6,8 @@ description: Comment PronoGo collecte, utilise et protège vos données personne
 
 # Politique de confidentialité — PronoGo
 
-**Dernière mise à jour** : 19 mai 2026
-**Version** : 1.0
+**Dernière mise à jour** : 24 mai 2026
+**Version** : 1.1
 
 [← Retour à l'accueil](../) · [English version](../privacy_en/)
 
@@ -63,13 +63,14 @@ En utilisant l'Application, vous reconnaissez avoir pris connaissance et accept�
 
 Vos données sont utilisées exclusivement pour :
 
-1. **Fournir le service** : login, sauvegarde de votre progression, calcul des scores, résolution des pronostics via l'API football-data.org.
+1. **Fournir le service** : login, sauvegarde de votre progression, calcul des scores, résolution des pronostics via l'API api-football.com.
 2. **Personnaliser l'expérience** : classements, recommandations, notifications de matchs et résultats.
 3. **Système social** : afficher votre pseudo dans les ligues, gérer la liste d'amis, classements amis.
 4. **Sécuriser le service** : détection d'abus, anti-cheat, rate limiting.
 5. **Améliorer l'application** : analyse anonymisée d'usage, debug.
+6. **Monétisation par publicité** : affichage de publicités via Google AdMob (bannières, native ads, rewarded video volontaires). Ces publicités peuvent être personnalisées en fonction de votre profil publicitaire Google (Android Advertising ID), géré par votre appareil. Vous pouvez réinitialiser ou désactiver la personnalisation depuis les Réglages de votre appareil → Confidentialité → Publicités.
 
-Nous **ne vendons jamais** vos données à des tiers. Nous **ne diffusons pas** de publicité ciblée dans la V1 de l'Application.
+Nous **ne vendons jamais** vos données à des tiers. Les publicités diffusées via AdMob sont **filtrées** : nous bloquons les catégories sensibles (paris en argent réel concurrents, contenu adulte, dating, politique, religion, etc.).
 
 ---
 
@@ -78,15 +79,16 @@ Nous **ne vendons jamais** vos données à des tiers. Nous **ne diffusons pas** 
 ### 4.1 Sous-traitants techniques
 
 - **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics) — hébergement EU (région `europe-west9`), conformité RGPD.
-- **football-data.org** — fournit les données des matchs (composition équipes, scores, résultats). Aucune donnée personnelle ne lui est transmise.
+- **api-football.com** — fournit les données des matchs (composition équipes, scores, résultats, statistiques). Aucune donnée personnelle ne lui est transmise.
+- **Google AdMob** — diffusion de publicités dans l'Application. Reçoit votre Android Advertising ID (identifiant publicitaire géré par votre appareil) et données techniques (IP, type de device, langue) pour le ciblage publicitaire. Aucune donnée personnelle nominative (email, nom) n'est transmise.
 
-### 4.2 Pas de partage commercial
+### 4.2 Limites du partage commercial
 
 Nous ne partageons aucune donnée avec :
-- Annonceurs publicitaires.
 - Réseaux sociaux.
 - Brokers de données.
 - Sites de paris en ligne.
+- Annonceurs concurrents (bookmakers FR explicitement bloqués dans AdMob).
 
 ---
 
@@ -135,9 +137,11 @@ Aucun système n'étant infaillible, nous ne pouvons garantir une sécurité abs
 
 ## 8. Mineurs
 
-PronoGo n'est **pas destiné aux personnes de moins de 13 ans**. Si vous résidez dans l'Espace économique européen, l'âge minimum est de **16 ans** (sauf consentement parental conformément à votre droit national).
+PronoGo est destiné aux personnes **âgées d'au moins 16 ans**. Cette restriction s'applique mondialement (RGPD Europe : article 8 ; aux États-Unis et au Royaume-Uni : conformité COPPA et UK-GDPR par alignement).
 
-Si vous constatez qu'un enfant de moins de 13 ans (ou 16 ans dans l'UE) utilise PronoGo, contactez-nous à `support@fcpronox.com` — nous procéderons à la suppression du compte sans délai.
+Lors de la création de votre compte, vous déclarez explicitement avoir au moins 16 ans en validant la case de consentement.
+
+Si vous constatez qu'un mineur de moins de 16 ans utilise PronoGo, contactez-nous à `support@fcpronox.com` — nous procéderons à la suppression du compte sans délai.
 
 ---
 
@@ -147,9 +151,9 @@ PronoGo stocke localement sur votre appareil :
 - Token de session Firebase Authentication.
 - Cache offline des données utilisateur (Firestore persistence).
 - Préférences (langue, thème, opt-in notifications).
-- Streak quotidien (SharedPreferences).
+- Streak quotidien et compteurs publicitaires (SharedPreferences).
 
-Aucun cookie tiers de tracking publicitaire n'est utilisé.
+Le SDK Google Mobile Ads (AdMob) peut utiliser des identifiants techniques pour le ciblage publicitaire, conformément à votre Android Advertising ID. Vous pouvez le réinitialiser ou désactiver la personnalisation depuis Réglages de votre appareil → Confidentialité → Publicités.
 
 ---
 

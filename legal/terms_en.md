@@ -6,8 +6,8 @@ description: The rules for using the PronoGo application.
 
 # Terms of Service — PronoGo
 
-**Last updated**: May 19, 2026
-**Version**: 1.0
+**Last updated**: May 24, 2026
+**Version**: 1.1
 
 [← Back to home](../) · [Version française](../terms_fr/)
 
@@ -45,7 +45,7 @@ PronoGo is not regulated as a gambling service.
 
 The use of the Application is reserved for persons who:
 
-- Are **at least 13 years old** (16 years in the European Economic Area, unless parental consent in accordance with applicable national law).
+- Are **at least 16 years old** (worldwide, in accordance with GDPR article 8 for Europe and by alignment with COPPA/UK-GDPR elsewhere).
 - Are **legally capable** of contracting under their national law.
 - **Reside in a country where PronoGo is distributed** by Apple App Store and Google Play. PronoGo is notably not distributed in Belgium.
 
@@ -135,7 +135,7 @@ Upon account deletion, **all your virtual currencies, cards, packs, and progress
 
 ### 7.1 Our content
 
-All elements of PronoGo (source code, design, brand, logos, text, illustrations, gameplay mechanics, database) are the property of us or our partners (notably football-data.org for match data), protected by copyright, trademark law, and database rights.
+All elements of PronoGo (source code, design, brand, logos, text, illustrations, gameplay mechanics, database) are the property of us or our partners (notably api-football.com for match data), protected by copyright, trademark law, and database rights.
 
 You benefit from a personal, non-exclusive, non-transferable, and limited license to use the Application in compliance with these ToS.
 
@@ -178,7 +178,7 @@ We cannot be held liable for:
 - Losses or damages caused by **fraudulent behavior** of other users.
 - **Malfunctions** of mobile networks, internet providers, App Store / Play Store.
 - **Data loss** due to a major Firebase incident or your own account deletion.
-- **Incorrect match data** provided by our partner football-data.org.
+- **Incorrect match data** provided by our partner api-football.com.
 
 ---
 
@@ -226,4 +226,4 @@ For any questions about these ToS:
 
 ---
 
-*PronoGo is published by **Mehdi Bouhaouala**, natural person (private individual), resident in Courbevoie, France. The application is made available free of charge and on a non-commercial basis. These ToS will be updated if the publisher's status changes (sole proprietor, company) or if paid features (IAP, advertising) are activated.*
+*PronoGo is published by **Mehdi Bouhaouala**, sole proprietor (auto-entrepreneur), resident in Courbevoie, France. The application is free to use, with optional in-app purchases (premium packs and items) and advertising (Google AdMob — banners, native ads, optional rewarded videos). These ToS will be updated if the publisher's status changes (company) or if new paid features are introduced.*

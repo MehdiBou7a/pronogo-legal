@@ -6,8 +6,8 @@ description: How PronoGo collects, uses and protects your personal data.
 
 # Privacy Policy — PronoGo
 
-**Last updated**: May 19, 2026
-**Version**: 1.0
+**Last updated**: May 24, 2026
+**Version**: 1.1
 
 [← Back to home](../) · [Version française](../privacy_fr/)
 
@@ -63,13 +63,14 @@ By using the Application, you acknowledge having read and accepted this Policy.
 
 Your data is used exclusively to:
 
-1. **Provide the service**: login, save your progression, calculate scores, resolve predictions via the football-data.org API.
+1. **Provide the service**: login, save your progression, calculate scores, resolve predictions via the api-football.com API.
 2. **Personalize the experience**: rankings, recommendations, match and result notifications.
 3. **Social system**: display your nickname in leagues, manage friend list, friend rankings.
 4. **Secure the service**: abuse detection, anti-cheat, rate limiting.
 5. **Improve the application**: anonymized usage analysis, debugging.
+6. **Advertising monetization**: display ads via Google AdMob (banners, native ads, optional rewarded video). Such ads may be personalized based on your Google advertising profile (Android Advertising ID), managed by your device. You can reset it or disable personalization from your device Settings → Privacy → Ads.
 
-We **never sell** your data to third parties. We **do not display** targeted advertising in V1 of the Application.
+We **never sell** your data to third parties. Ads served via AdMob are **filtered**: we block sensitive categories (real-money competitor gambling, adult content, dating, politics, religion, etc.).
 
 ---
 
@@ -78,15 +79,16 @@ We **never sell** your data to third parties. We **do not display** targeted adv
 ### 4.1 Technical subcontractors
 
 - **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics) — EU hosting (region `europe-west9`), GDPR compliant.
-- **football-data.org** — provides match data (team lineups, scores, results). No personal data is transmitted to it.
+- **api-football.com** — provides match data (team lineups, scores, results, statistics). No personal data is transmitted to it.
+- **Google AdMob** — serves ads in the Application. Receives your Android Advertising ID (advertising identifier managed by your device) and technical data (IP, device type, language) for ad targeting. No nominative personal data (email, name) is transmitted.
 
-### 4.2 No commercial sharing
+### 4.2 Limits on commercial sharing
 
 We do not share any data with:
-- Advertisers.
 - Social networks.
 - Data brokers.
 - Online gambling sites.
+- Competitor advertisers (FR bookmakers explicitly blocked in AdMob).
 
 ---
 
@@ -135,9 +137,11 @@ No system is infallible; we cannot guarantee absolute security, but we implement
 
 ## 8. Minors
 
-PronoGo is **not intended for persons under 13 years old**. If you reside in the European Economic Area, the minimum age is **16 years** (unless parental consent in accordance with your national law).
+PronoGo is intended for persons **at least 16 years old**. This restriction applies worldwide (GDPR Europe: article 8; in the United States and the United Kingdom: COPPA and UK-GDPR compliance through alignment).
 
-If you become aware that a child under 13 (or 16 in the EU) is using PronoGo, contact us at `support@fcpronox.com` — we will delete the account without delay.
+Upon account creation, you explicitly declare being at least 16 years old by validating the consent checkbox.
+
+If you become aware that a minor under 16 is using PronoGo, contact us at `support@fcpronox.com` — we will delete the account without delay.
 
 ---
 
@@ -147,9 +151,9 @@ PronoGo stores locally on your device:
 - Firebase Authentication session token.
 - Offline cache of user data (Firestore persistence).
 - Preferences (language, theme, notifications opt-in).
-- Daily streak (SharedPreferences).
+- Daily streak and advertising counters (SharedPreferences).
 
-No third-party advertising tracking cookies are used.
+The Google Mobile Ads SDK (AdMob) may use technical identifiers for ad targeting, in accordance with your Android Advertising ID. You can reset it or disable personalization from your device Settings → Privacy → Ads.
 
 ---
 
@@ -170,4 +174,4 @@ For any questions or requests:
 
 ---
 
-*PronoGo is an independent project published by **Mehdi Bouhaouala**, natural person (private individual), resident in Courbevoie, France. The application is made available free of charge and on a non-commercial basis. The publisher does not receive any direct or indirect monetary income from the use of the application in V1.*
+*PronoGo is published by **Mehdi Bouhaouala**, sole proprietor (auto-entrepreneur), resident in Courbevoie, France. The application is free to use, with optional in-app purchases (premium packs and items) and advertising (Google AdMob — banners, native ads, optional rewarded videos). This Policy will be updated if the publisher status evolves (company) or if new paid features are introduced.*

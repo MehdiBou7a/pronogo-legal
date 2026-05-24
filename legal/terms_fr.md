@@ -6,8 +6,8 @@ description: Les règles d'utilisation de l'application PronoGo.
 
 # Conditions Générales d'Utilisation — PronoGo
 
-**Dernière mise à jour** : 19 mai 2026
-**Version** : 1.0
+**Dernière mise à jour** : 24 mai 2026
+**Version** : 1.1
 
 [← Retour à l'accueil](../) · [English version](../terms_en/)
 
@@ -45,11 +45,11 @@ PronoGo n'est pas régi par les autorités françaises de régulation des jeux d
 
 L'utilisation de l'Application est réservée aux personnes :
 
-- **Âgées de 13 ans minimum** (16 ans dans l'Espace économique européen, sauf consentement parental conformément au droit national applicable).
+- **Âgées d'au moins 16 ans** (restriction mondiale appliquée par PronoGo, conforme RGPD article 8).
 - **Capables juridiquement** de contracter selon leur droit national.
 - **Résidant dans un pays où PronoGo est distribué** par Apple App Store et Google Play. PronoGo n'est notamment pas distribué en Belgique.
 
-Si vous êtes mineur, vous devez obtenir le consentement préalable de votre représentant légal avant d'utiliser l'Application.
+Lors de la création de votre compte, vous déclarez explicitement avoir au moins 16 ans en validant la case de consentement. Si vous êtes mineur entre 16 et 18 ans, vous devez obtenir le consentement préalable de votre représentant légal pour utiliser l'Application et effectuer tout achat in-app.
 
 ---
 
@@ -135,7 +135,7 @@ Les transactions sont gérées par Apple App Store ou Google Play selon votre pl
 
 ### 7.1 Notre contenu
 
-Tous les éléments de PronoGo (code source, design, marque, logos, textes, illustrations, mécaniques de jeu, base de données) sont notre propriété ou celle de nos partenaires (notamment football-data.org pour les données de matchs), protégés par le droit d'auteur, le droit des marques, et le droit des bases de données.
+Tous les éléments de PronoGo (code source, design, marque, logos, textes, illustrations, mécaniques de jeu, base de données) sont notre propriété ou celle de nos partenaires (notamment api-football.com pour les données de matchs), protégés par le droit d'auteur, le droit des marques, et le droit des bases de données.
 
 Vous bénéficiez d'une licence personnelle, non exclusive, non transférable, et limitée pour utiliser l'Application dans le respect des présentes CGU.
 
@@ -178,7 +178,7 @@ Nous ne saurions être responsables de :
 - Pertes ou dommages causés par des **comportements frauduleux** d'autres utilisateurs.
 - **Dysfonctionnements** des réseaux mobiles, fournisseurs d'accès, App Store / Play Store.
 - **Pertes de données** dues à un incident majeur Firebase ou à votre propre suppression de compte.
-- **Données de matchs incorrectes** fournies par notre partenaire football-data.org.
+- **Données de matchs incorrectes** fournies par notre partenaire api-football.com.
 
 ---
 
@@ -226,4 +226,4 @@ Pour toute question concernant ces CGU :
 
 ---
 
-*PronoGo est édité par **Mehdi Bouhaouala**, personne physique (particulier), domicilié à Courbevoie, France. L'application est mise à disposition à titre gratuit et non-commercial. Les présentes CGU seront mises à jour si le statut éditeur évolue (auto-entrepreneur, société) ou si des fonctionnalités payantes (IAP, publicité) sont activées.*
+*PronoGo est édité par **Mehdi Bouhaouala**, auto-entrepreneur, domicilié à Courbevoie, France. L'application est gratuite à l'usage avec des fonctionnalités optionnelles d'achat in-app (packs et items premium) et de la publicité (Google AdMob — bannières, native ads, rewarded video volontaires). Les présentes CGU seront mises à jour si le statut éditeur évolue (société) ou si de nouvelles fonctionnalités payantes sont introduites.*
