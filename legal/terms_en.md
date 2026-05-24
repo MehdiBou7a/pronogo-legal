@@ -72,7 +72,7 @@ We reserve the right to modify or delete any non-compliant nickname, without not
 
 ### 4.3 Account security
 
-You are responsible for maintaining the confidentiality of your password and any activity performed on your account. Notify us immediately at `support@fcpronox.com` in case of unauthorized access.
+You are responsible for maintaining the confidentiality of your password and any activity performed on your account. Notify us immediately at `pronogo.dev@gmail.com` in case of unauthorized access.
 
 ### 4.4 One account per person
 
@@ -221,7 +221,7 @@ Any dispute relating to the use of the Application shall, failing prior amicable
 
 For any questions about these ToS:
 
-- **Email**: support@fcpronox.com
+- **Email**: pronogo.dev@gmail.com
 - **Address**: Mehdi Bouhaouala, Courbevoie, France
 
 ---

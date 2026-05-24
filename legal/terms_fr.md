@@ -72,7 +72,7 @@ Nous nous réservons le droit de modifier ou de supprimer tout pseudo non confor
 
 ### 4.3 Sécurité du compte
 
-Vous êtes responsable du maintien de la confidentialité de votre mot de passe et de toute activité réalisée sur votre compte. Informez-nous immédiatement à `support@fcpronox.com` en cas d'accès non autorisé.
+Vous êtes responsable du maintien de la confidentialité de votre mot de passe et de toute activité réalisée sur votre compte. Informez-nous immédiatement à `pronogo.dev@gmail.com` en cas d'accès non autorisé.
 
 ### 4.4 Un compte par personne
 
@@ -221,7 +221,7 @@ Tout litige relatif à l'utilisation de l'Application sera, à défaut de résol
 
 Pour toute question concernant ces CGU :
 
-- **Email** : support@fcpronox.com
+- **Email** : pronogo.dev@gmail.com
 - **Adresse** : Mehdi Bouhaouala, Courbevoie, France
 
 ---
