@@ -17,6 +17,11 @@ Bienvenue sur la page officielle des documents légaux de **PronoGo**.
 - 🇫🇷 [Version française](./legal/terms_fr/)
 - 🇬🇧 [English version](./legal/terms_en/)
 
+## 🗑️ Suppression de compte
+
+- 🇫🇷 [Version française](./legal/delete_account_fr/)
+- 🇬🇧 [English version](./legal/delete_account_en/)
+
 ---
 
 ## Contact
