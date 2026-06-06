@@ -9,7 +9,7 @@ description: Comment PronoGo collecte, utilise et protège vos données personne
 **Dernière mise à jour** : 24 mai 2026
 **Version** : 1.1
 
-[← Retour à l'accueil](../) · [English version](../privacy_en/)
+[← Retour à l'accueil](../../) · [English version](../privacy_en/)
 
 ---
 

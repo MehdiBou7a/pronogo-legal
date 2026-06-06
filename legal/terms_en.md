@@ -9,7 +9,7 @@ description: The rules for using the PronoGo application.
 **Last updated**: May 24, 2026
 **Version**: 1.1
 
-[← Back to home](../) · [Version française](../terms_fr/)
+[← Back to home](../../) · [Version française](../terms_fr/)
 
 ---
 

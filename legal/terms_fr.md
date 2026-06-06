@@ -9,7 +9,7 @@ description: Les règles d'utilisation de l'application PronoGo.
 **Dernière mise à jour** : 24 mai 2026
 **Version** : 1.1
 
-[← Retour à l'accueil](../) · [English version](../terms_en/)
+[← Retour à l'accueil](../../) · [English version](../terms_en/)
 
 ---
 

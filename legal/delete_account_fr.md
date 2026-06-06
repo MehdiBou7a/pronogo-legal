@@ -8,7 +8,7 @@ description: Comment supprimer votre compte PronoGo et vos données associées.
 
 **Dernière mise à jour** : 6 juin 2026
 
-[← Retour à l'accueil](../) · [English version](../delete_account_en/)
+[← Retour à l'accueil](../../) · [English version](../delete_account_en/)
 
 ---
 

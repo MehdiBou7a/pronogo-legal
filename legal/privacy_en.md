@@ -9,7 +9,7 @@ description: How PronoGo collects, uses and protects your personal data.
 **Last updated**: May 24, 2026
 **Version**: 1.1
 
-[← Back to home](../) · [Version française](../privacy_fr/)
+[← Back to home](../../) · [Version française](../privacy_fr/)
 
 ---
 

@@ -8,7 +8,7 @@ description: How to delete your PronoGo account and associated data.
 
 **Last updated**: June 6, 2026
 
-[← Back to home](../) · [Version française](../delete_account_fr/)
+[← Back to home](../../) · [Version française](../delete_account_fr/)
 
 ---
 
