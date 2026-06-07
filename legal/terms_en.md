@@ -115,15 +115,17 @@ The virtual currencies of PronoGo (tokens, pronocoins):
 - **Cannot be transferred** to other users (outside of provided gameplay mechanics).
 - **Are consumable** and may expire (notably upon account deletion).
 
-### 6.2 In-app purchases (post-V1)
+### 6.2 In-app purchases
 
-Where applicable, the Application may offer in-app purchases allowing acquisition of virtual currencies or gameplay items (packs, boosters, etc.). These purchases:
+The Application offers in-app purchases allowing acquisition of virtual currencies or gameplay items (packs, boosters, subscriptions, etc.). These purchases:
 
 - Are final and **non-refundable** (unless applicable law requires otherwise, or in case of proven malfunction on our part).
 - Entitle you only to the purchased virtual items.
 - Should not be considered as investments or stakes.
 
 Transactions are managed by Apple App Store or Google Play depending on your platform.
+
+**Purchase delivery and validation.** Every purchase is verified with the platform (Google Play / App Store) before being credited to your account — usually within seconds. If this validation temporarily fails (technical incident, network outage), the purchase is **automatically re-submitted every time the Application starts**; you can also force an immediate retry using the "**Restore purchases**" button in the shop. If validation remains impossible, the transaction is **automatically cancelled and refunded by the platform** (Google Play: within approximately 3 days). Under no circumstances can you be durably charged without receiving the purchased items.
 
 ### 6.3 Account deletion and losses
 

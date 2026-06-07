@@ -115,15 +115,17 @@ Les monnaies virtuelles de PronoGo (tokens, pronocoins) :
 - **Ne peuvent pas être transférées** à d'autres utilisateurs (hors mécaniques de gameplay prévues).
 - **Sont consommables** et peuvent expirer (notamment à la suppression du compte).
 
-### 6.2 Achats in-app (post-V1)
+### 6.2 Achats in-app
 
-Le cas échéant, l'Application pourra proposer des achats in-app permettant d'acquérir des monnaies virtuelles ou des éléments de gameplay (packs, boosters, etc.). Ces achats :
+L'Application propose des achats in-app permettant d'acquérir des monnaies virtuelles ou des éléments de gameplay (packs, boosters, abonnements, etc.). Ces achats :
 
 - Sont définitifs et **non remboursables** (sauf si la loi applicable l'exige, ou en cas de dysfonctionnement avéré de notre fait).
 - Donnent droit uniquement aux éléments virtuels achetés.
 - Ne sauraient être considérés comme un investissement ou une mise.
 
 Les transactions sont gérées par Apple App Store ou Google Play selon votre plateforme.
+
+**Livraison et validation des achats.** Chaque achat est vérifié auprès de la plateforme (Google Play / App Store) avant d'être crédité sur votre compte — généralement en quelques secondes. En cas d'échec temporaire de cette validation (incident technique, coupure réseau), l'achat est **automatiquement re-soumis à chaque lancement de l'Application** ; vous pouvez également forcer une nouvelle tentative immédiate via le bouton « **Restaurer les achats** » situé dans la boutique. Si la validation demeure impossible, la transaction est **automatiquement annulée et remboursée par la plateforme** (Google Play : sous environ 3 jours). En aucun cas vous ne pouvez être débité durablement sans recevoir les éléments achetés.
 
 ### 6.3 Suppression de compte et pertes
 
