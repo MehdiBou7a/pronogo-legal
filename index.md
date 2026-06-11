@@ -27,7 +27,7 @@ Bienvenue sur la page officielle des documents légaux de **PronoGo**.
 ## Contact
 
 Pour toute question :
-- 📧 **Email** : support@fcpronox.com
+- 📧 **Email** : pronogo.dev@gmail.com
 - 🌐 **App** : [PronoGo sur l'App Store](#) · [PronoGo sur Google Play](#)
 
 ---

@@ -20,7 +20,7 @@ Public hosting of legal documents for the **PronoGo** mobile app.
 ## Contact
 
 - **App** : PronoGo (Android + iOS, à venir)
-- **Email** : support@fcpronox.com
+- **Email** : pronogo.dev@gmail.com
 
 ---
 
