@@ -6,10 +6,10 @@ description: The rules for using the PronoGo application.
 
 # Terms of Service — PronoGo
 
-**Last updated**: May 24, 2026
-**Version**: 1.1
+**Last updated**: May 19, 2026
+**Version**: 1.0
 
-[← Back to home](../../) · [Version française](../terms_fr/)
+[← Back to home](../) · [Version française](../terms_fr/)
 
 ---
 
@@ -45,7 +45,7 @@ PronoGo is not regulated as a gambling service.
 
 The use of the Application is reserved for persons who:
 
-- Are **at least 16 years old** (worldwide, in accordance with GDPR article 8 for Europe and by alignment with COPPA/UK-GDPR elsewhere).
+- Are **at least 13 years old** (16 years in the European Economic Area, unless parental consent in accordance with applicable national law).
 - Are **legally capable** of contracting under their national law.
 - **Reside in a country where PronoGo is distributed** by Apple App Store and Google Play. PronoGo is notably not distributed in Belgium.
 
@@ -72,7 +72,7 @@ We reserve the right to modify or delete any non-compliant nickname, without not
 
 ### 4.3 Account security
 
-You are responsible for maintaining the confidentiality of your password and any activity performed on your account. Notify us immediately at `pronogo.dev@gmail.com` in case of unauthorized access.
+You are responsible for maintaining the confidentiality of your password and any activity performed on your account. Notify us immediately at `support@fcpronox.com` in case of unauthorized access.
 
 ### 4.4 One account per person
 
@@ -115,17 +115,15 @@ The virtual currencies of PronoGo (tokens, pronocoins):
 - **Cannot be transferred** to other users (outside of provided gameplay mechanics).
 - **Are consumable** and may expire (notably upon account deletion).
 
-### 6.2 In-app purchases
+### 6.2 In-app purchases (post-V1)
 
-The Application offers in-app purchases allowing acquisition of virtual currencies or gameplay items (packs, boosters, subscriptions, etc.). These purchases:
+Where applicable, the Application may offer in-app purchases allowing acquisition of virtual currencies or gameplay items (packs, boosters, etc.). These purchases:
 
 - Are final and **non-refundable** (unless applicable law requires otherwise, or in case of proven malfunction on our part).
 - Entitle you only to the purchased virtual items.
 - Should not be considered as investments or stakes.
 
 Transactions are managed by Apple App Store or Google Play depending on your platform.
-
-**Purchase delivery and validation.** Every purchase is verified with the platform (Google Play / App Store) before being credited to your account — usually within seconds. If this validation temporarily fails (technical incident, network outage), the purchase is **automatically re-submitted every time the Application starts**; you can also force an immediate retry using the "**Restore purchases**" button in the shop. If validation remains impossible, the transaction is **automatically cancelled and refunded by the platform** (Google Play: within approximately 3 days). Under no circumstances can you be durably charged without receiving the purchased items.
 
 ### 6.3 Account deletion and losses
 
@@ -137,7 +135,7 @@ Upon account deletion, **all your virtual currencies, cards, packs, and progress
 
 ### 7.1 Our content
 
-All elements of PronoGo (source code, design, brand, logos, text, illustrations, gameplay mechanics, database) are the property of us or our partners (notably api-football.com for match data), protected by copyright, trademark law, and database rights.
+All elements of PronoGo (source code, design, brand, logos, text, illustrations, gameplay mechanics, database) are the property of us or our partners (notably football-data.org for match data), protected by copyright, trademark law, and database rights.
 
 You benefit from a personal, non-exclusive, non-transferable, and limited license to use the Application in compliance with these ToS.
 
@@ -180,7 +178,7 @@ We cannot be held liable for:
 - Losses or damages caused by **fraudulent behavior** of other users.
 - **Malfunctions** of mobile networks, internet providers, App Store / Play Store.
 - **Data loss** due to a major Firebase incident or your own account deletion.
-- **Incorrect match data** provided by our partner api-football.com.
+- **Incorrect match data** provided by our partner football-data.org.
 
 ---
 
@@ -223,9 +221,9 @@ Any dispute relating to the use of the Application shall, failing prior amicable
 
 For any questions about these ToS:
 
-- **Email**: pronogo.dev@gmail.com
+- **Email**: support@fcpronox.com
 - **Address**: Mehdi Bouhaouala, Courbevoie, France
 
 ---
 
-*PronoGo is published by **Mehdi Bouhaouala**, sole proprietor (auto-entrepreneur), resident in Courbevoie, France. The application is free to use, with optional in-app purchases (premium packs and items) and advertising (Google AdMob — banners, native ads, optional rewarded videos). These ToS will be updated if the publisher's status changes (company) or if new paid features are introduced.*
+*PronoGo is published by **Mehdi Bouhaouala**, natural person (private individual), resident in Courbevoie, France. The application is made available free of charge and on a non-commercial basis. These ToS will be updated if the publisher's status changes (sole proprietor, company) or if paid features (IAP, advertising) are activated.*

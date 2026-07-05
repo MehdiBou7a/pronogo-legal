@@ -6,10 +6,10 @@ description: Les règles d'utilisation de l'application PronoGo.
 
 # Conditions Générales d'Utilisation — PronoGo
 
-**Dernière mise à jour** : 24 mai 2026
-**Version** : 1.1
+**Dernière mise à jour** : 19 mai 2026
+**Version** : 1.0
 
-[← Retour à l'accueil](../../) · [English version](../terms_en/)
+[← Retour à l'accueil](../) · [English version](../terms_en/)
 
 ---
 
@@ -45,11 +45,11 @@ PronoGo n'est pas régi par les autorités françaises de régulation des jeux d
 
 L'utilisation de l'Application est réservée aux personnes :
 
-- **Âgées d'au moins 16 ans** (restriction mondiale appliquée par PronoGo, conforme RGPD article 8).
+- **Âgées de 13 ans minimum** (16 ans dans l'Espace économique européen, sauf consentement parental conformément au droit national applicable).
 - **Capables juridiquement** de contracter selon leur droit national.
 - **Résidant dans un pays où PronoGo est distribué** par Apple App Store et Google Play. PronoGo n'est notamment pas distribué en Belgique.
 
-Lors de la création de votre compte, vous déclarez explicitement avoir au moins 16 ans en validant la case de consentement. Si vous êtes mineur entre 16 et 18 ans, vous devez obtenir le consentement préalable de votre représentant légal pour utiliser l'Application et effectuer tout achat in-app.
+Si vous êtes mineur, vous devez obtenir le consentement préalable de votre représentant légal avant d'utiliser l'Application.
 
 ---
 
@@ -72,7 +72,7 @@ Nous nous réservons le droit de modifier ou de supprimer tout pseudo non confor
 
 ### 4.3 Sécurité du compte
 
-Vous êtes responsable du maintien de la confidentialité de votre mot de passe et de toute activité réalisée sur votre compte. Informez-nous immédiatement à `pronogo.dev@gmail.com` en cas d'accès non autorisé.
+Vous êtes responsable du maintien de la confidentialité de votre mot de passe et de toute activité réalisée sur votre compte. Informez-nous immédiatement à `support@fcpronox.com` en cas d'accès non autorisé.
 
 ### 4.4 Un compte par personne
 
@@ -115,17 +115,15 @@ Les monnaies virtuelles de PronoGo (tokens, pronocoins) :
 - **Ne peuvent pas être transférées** à d'autres utilisateurs (hors mécaniques de gameplay prévues).
 - **Sont consommables** et peuvent expirer (notamment à la suppression du compte).
 
-### 6.2 Achats in-app
+### 6.2 Achats in-app (post-V1)
 
-L'Application propose des achats in-app permettant d'acquérir des monnaies virtuelles ou des éléments de gameplay (packs, boosters, abonnements, etc.). Ces achats :
+Le cas échéant, l'Application pourra proposer des achats in-app permettant d'acquérir des monnaies virtuelles ou des éléments de gameplay (packs, boosters, etc.). Ces achats :
 
 - Sont définitifs et **non remboursables** (sauf si la loi applicable l'exige, ou en cas de dysfonctionnement avéré de notre fait).
 - Donnent droit uniquement aux éléments virtuels achetés.
 - Ne sauraient être considérés comme un investissement ou une mise.
 
 Les transactions sont gérées par Apple App Store ou Google Play selon votre plateforme.
-
-**Livraison et validation des achats.** Chaque achat est vérifié auprès de la plateforme (Google Play / App Store) avant d'être crédité sur votre compte — généralement en quelques secondes. En cas d'échec temporaire de cette validation (incident technique, coupure réseau), l'achat est **automatiquement re-soumis à chaque lancement de l'Application** ; vous pouvez également forcer une nouvelle tentative immédiate via le bouton « **Restaurer les achats** » situé dans la boutique. Si la validation demeure impossible, la transaction est **automatiquement annulée et remboursée par la plateforme** (Google Play : sous environ 3 jours). En aucun cas vous ne pouvez être débité durablement sans recevoir les éléments achetés.
 
 ### 6.3 Suppression de compte et pertes
 
@@ -137,7 +135,7 @@ Les transactions sont gérées par Apple App Store ou Google Play selon votre pl
 
 ### 7.1 Notre contenu
 
-Tous les éléments de PronoGo (code source, design, marque, logos, textes, illustrations, mécaniques de jeu, base de données) sont notre propriété ou celle de nos partenaires (notamment api-football.com pour les données de matchs), protégés par le droit d'auteur, le droit des marques, et le droit des bases de données.
+Tous les éléments de PronoGo (code source, design, marque, logos, textes, illustrations, mécaniques de jeu, base de données) sont notre propriété ou celle de nos partenaires (notamment football-data.org pour les données de matchs), protégés par le droit d'auteur, le droit des marques, et le droit des bases de données.
 
 Vous bénéficiez d'une licence personnelle, non exclusive, non transférable, et limitée pour utiliser l'Application dans le respect des présentes CGU.
 
@@ -180,7 +178,7 @@ Nous ne saurions être responsables de :
 - Pertes ou dommages causés par des **comportements frauduleux** d'autres utilisateurs.
 - **Dysfonctionnements** des réseaux mobiles, fournisseurs d'accès, App Store / Play Store.
 - **Pertes de données** dues à un incident majeur Firebase ou à votre propre suppression de compte.
-- **Données de matchs incorrectes** fournies par notre partenaire api-football.com.
+- **Données de matchs incorrectes** fournies par notre partenaire football-data.org.
 
 ---
 
@@ -223,9 +221,9 @@ Tout litige relatif à l'utilisation de l'Application sera, à défaut de résol
 
 Pour toute question concernant ces CGU :
 
-- **Email** : pronogo.dev@gmail.com
+- **Email** : support@fcpronox.com
 - **Adresse** : Mehdi Bouhaouala, Courbevoie, France
 
 ---
 
-*PronoGo est édité par **Mehdi Bouhaouala**, auto-entrepreneur, domicilié à Courbevoie, France. L'application est gratuite à l'usage avec des fonctionnalités optionnelles d'achat in-app (packs et items premium) et de la publicité (Google AdMob — bannières, native ads, rewarded video volontaires). Les présentes CGU seront mises à jour si le statut éditeur évolue (société) ou si de nouvelles fonctionnalités payantes sont introduites.*
+*PronoGo est édité par **Mehdi Bouhaouala**, personne physique (particulier), domicilié à Courbevoie, France. L'application est mise à disposition à titre gratuit et non-commercial. Les présentes CGU seront mises à jour si le statut éditeur évolue (auto-entrepreneur, société) ou si des fonctionnalités payantes (IAP, publicité) sont activées.*

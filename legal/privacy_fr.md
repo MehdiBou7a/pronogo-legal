@@ -6,10 +6,10 @@ description: Comment PronoGo collecte, utilise et protège vos données personne
 
 # Politique de confidentialité — PronoGo
 
-**Dernière mise à jour** : 11 juin 2026
-**Version** : 1.2
+**Dernière mise à jour** : 3 juillet 2026
+**Version** : 1.1
 
-[← Retour à l'accueil](../../) · [English version](../privacy_en/)
+[← Retour à l'accueil](../) · [English version](../privacy_en/)
 
 ---
 
@@ -17,9 +17,9 @@ description: Comment PronoGo collecte, utilise et protège vos données personne
 
 La présente politique de confidentialité (« Politique ») explique comment **PronoGo** (« nous », « notre application ») collecte, utilise et protège vos données personnelles lorsque vous utilisez l'application mobile PronoGo (« l'Application »).
 
-L'éditeur de PronoGo est **Mehdi Bouhaouala**, entrepreneur individuel (auto-entrepreneur) immatriculé en France, dont les coordonnées de contact sont disponibles à la fin de cette Politique.
+L'éditeur de PronoGo est **Mehdi Bouhaouala**, dont les coordonnées de contact sont disponibles à la fin de cette Politique.
 
-PronoGo est un jeu mobile de pronostics sportifs basé sur des **monnaies virtuelles** (tokens, pronocoins). **Aucun argent réel n'est mis en jeu, aucun gain monétaire n'est versé.** L'Application est gratuite à l'usage et se finance par des **achats intégrés optionnels** (via Google Play et l'App Store) et de la **publicité** (Google AdMob). Voir nos Conditions Générales d'Utilisation pour plus de détails.
+PronoGo est un jeu mobile de pronostics sportifs basé sur des **monnaies virtuelles** (tokens, pronocoins). **Aucun argent réel n'est mis en jeu, aucun gain monétaire n'est versé.** Voir nos Conditions Générales d'Utilisation pour plus de détails.
 
 En utilisant l'Application, vous reconnaissez avoir pris connaissance et accepté cette Politique.
 
@@ -29,14 +29,8 @@ En utilisant l'Application, vous reconnaissez avoir pris connaissance et accept�
 
 ### 2.1 Données fournies lors de la création du compte
 
-Vous pouvez créer votre compte de trois façons :
-
-- **Email + mot de passe** : l'adresse email sert d'identifiant de compte et aux communications transactionnelles (dont l'email de vérification d'adresse). Le mot de passe est stocké sous forme de hash sécurisé par Firebase Authentication (jamais en clair).
-- **Connexion Google** : nous recevons de Google votre adresse email, votre nom d'affichage et, le cas échéant, votre photo de profil. Nous ne recevons jamais votre mot de passe Google.
-- **Connexion Apple** : nous recevons d'Apple votre adresse email (ou une adresse relais privée si vous choisissez « Masquer mon adresse email ») et votre nom d'affichage. Nous ne recevons jamais votre mot de passe Apple.
-
-Dans tous les cas :
-
+- **Adresse email** : utilisée comme identifiant de compte et pour les communications transactionnelles.
+- **Mot de passe** : stocké sous forme de hash sécurisé par Firebase Authentication (jamais en clair).
 - **Pseudonyme (display name)** : affiché publiquement dans les classements, les ligues privées et le système d'amis.
 
 ### 2.2 Données générées par votre activité
@@ -45,9 +39,10 @@ Dans tous les cas :
 - **Cartes possédées** : collection, niveaux, évolutions, bonus.
 - **Lineups deck** : compositions hebdomadaires.
 - **Scores et classements** : weekly, monthly, season, lifetime.
-- **Niveau XP, missions accomplies, défis Tribunal, mini-jeux, cartes mythiques**.
+- **Niveau XP, missions accomplies, défis Tribunal**.
 - **Membres de ligues privées** et **liste d'amis**.
-- **Parrainage (code ami)** : si vous saisissez le code d'un parrain (ou si quelqu'un saisit le vôtre), le lien parrain/filleul est enregistré et votre **pseudonyme est visible par votre parrain** (et réciproquement) dans son suivi de parrainage. Aucune autre donnée personnelle n'est partagée via le parrainage.
+- **Achats intégrés (facultatifs)** : historique de vos achats in-app (packs de cartes, abonnement, monnaies virtuelles). Le paiement est traité par l'App Store (Apple) ou Google Play — nous ne stockons **aucune donnée bancaire**.
+- **Publicités récompensées (facultatives)** : le fait que vous ayez choisi de regarder une publicité vidéo pour obtenir une récompense de jeu.
 
 ### 2.3 Données techniques
 
@@ -55,19 +50,11 @@ Dans tous les cas :
 - **Token FCM** (Firebase Cloud Messaging) pour vous envoyer des notifications push.
 - **Adresse IP** : collectée par Firebase pour des raisons de sécurité (anti-abus) et de géolocalisation pays (compliance store).
 - **Type d'appareil, OS, version de l'application**.
-- **Rapports de crash (Firebase Crashlytics)** : en cas de plantage, un rapport technique est envoyé (modèle d'appareil, version OS et app, état de l'application au moment du crash, traces techniques). Ces rapports servent uniquement à corriger les bugs.
-- **Identifiant publicitaire** (Android Advertising ID / Apple IDFA) : utilisé par Google AdMob pour la diffusion publicitaire, selon votre consentement (voir section 4).
+- **Logs d'erreurs anonymisés** pour le debug et l'amélioration.
 
-### 2.4 Données de transaction (achats intégrés)
+### 2.4 Données que nous NE collectons PAS
 
-Si vous effectuez un achat intégré (pack, boost, abonnement), la transaction est **entièrement traitée par Google Play ou l'App Store**. Nous **ne voyons jamais et ne stockons jamais** votre numéro de carte bancaire ni vos coordonnées de paiement.
-
-Nous recevons et conservons uniquement : l'identifiant du produit acheté, un jeton/identifiant de transaction fourni par la plateforme (pour vérifier l'achat et créditer votre compte), la date et l'état de la transaction. Pour les abonnements, nous conservons la date d'échéance afin d'appliquer vos avantages (ex : suppression des publicités).
-
-### 2.5 Données que nous NE collectons PAS
-
-- Numéro de carte bancaire, RIB, coordonnées de paiement (gérés exclusivement par Google Play / App Store).
-- Numéro de téléphone, adresse postale, identité civile complète.
+- Numéro de téléphone, adresse postale, RIB, identité civile complète.
 - Localisation GPS précise.
 - Contacts du téléphone.
 - Photos, microphone, calendrier.
@@ -78,81 +65,65 @@ Nous recevons et conservons uniquement : l'identifiant du produit acheté, un je
 
 Vos données sont utilisées exclusivement pour :
 
-1. **Fournir le service** : login, sauvegarde de votre progression, calcul des scores, résolution des pronostics via l'API api-football.com.
+1. **Fournir le service** : login, sauvegarde de votre progression, calcul des scores, résolution des pronostics via l'API **API-Football (api-sports.io)**.
 2. **Personnaliser l'expérience** : classements, recommandations, notifications de matchs et résultats.
-3. **Système social** : afficher votre pseudo dans les ligues, gérer la liste d'amis, les classements amis et le parrainage.
-4. **Traiter vos achats intégrés** : vérifier les transactions auprès de Google Play / App Store, créditer les éléments achetés, appliquer les abonnements, prévenir la fraude, et satisfaire nos obligations comptables et fiscales.
-5. **Sécuriser le service** : détection d'abus, anti-cheat, rate limiting.
-6. **Améliorer l'application** : analyse anonymisée d'usage (Firebase Analytics), correction des bugs (Crashlytics).
-7. **Monétisation par publicité** : affichage de publicités via Google AdMob (native ads et rewarded video volontaires). Voir section 4 pour le consentement.
+3. **Système social** : afficher votre pseudo dans les ligues, gérer la liste d'amis, classements amis.
+4. **Sécuriser le service** : détection d'abus, anti-cheat, rate limiting.
+5. **Améliorer l'application** : analyse anonymisée d'usage, debug.
 
-Nous **ne vendons jamais** vos données à des tiers. Les publicités diffusées via AdMob sont **filtrées** : nous bloquons les catégories sensibles (paris en argent réel concurrents, contenu adulte, dating, politique, religion, etc.).
+Nous **ne vendons jamais** vos données à des tiers. L'Application propose des **publicités vidéo récompensées facultatives** (via Google AdMob) : vous choisissez librement de les regarder pour obtenir des récompenses de jeu. Nous ne diffusons **aucune bannière imposée** et ne pratiquons **pas de publicité ciblée** sur vos données personnelles de jeu.
 
 ---
 
-## 4. Publicité et consentement
+## 4. Partage de données avec des tiers
 
-L'Application affiche des publicités via **Google AdMob** : publicités natives intégrées à l'interface et vidéos « rewarded » que vous choisissez volontairement de regarder en échange de récompenses virtuelles.
+### 4.1 Sous-traitants techniques
 
-**Consentement (EEE / Royaume-Uni / Suisse)** : avant toute publicité personnalisée, une **fenêtre de consentement Google UMP** (User Messaging Platform) vous est présentée. Vous pouvez accepter ou refuser la publicité personnalisée ; en cas de refus, des publicités **non personnalisées** (contextuelles) sont diffusées. Vous pouvez modifier votre choix à tout moment depuis les Réglages de l'Application.
+- **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics) — hébergement EU (région `europe-west9`), conformité RGPD.
+- **API-Football (api-sports.io)** — fournit les données des matchs (composition équipes, scores, résultats). Aucune donnée personnelle ne lui est transmise.
+- **Apple App Store / Google Play** — traitent les achats intégrés (paiement). Nous ne recevons ni ne stockons vos données bancaires.
+- **Google AdMob** — diffuse les publicités vidéo récompensées facultatives ; peut traiter des identifiants d'appareil/publicitaires à cette fin.
+- **Brevo (Sendinblue)** — envoi des emails transactionnels (bienvenue, rappels) ; reçoit votre adresse email.
 
-Si vous consentez, AdMob peut utiliser votre **identifiant publicitaire** (Android Advertising ID / Apple IDFA) pour personnaliser les annonces. Vous pouvez aussi réinitialiser cet identifiant ou désactiver la personnalisation depuis les Réglages de votre appareil → Confidentialité → Publicités.
+### 4.2 Pas de partage commercial
 
-Les utilisateurs disposant d'un **abonnement « Sans pub »** ne voient aucune publicité.
-
----
-
-## 5. Partage de données avec des tiers
-
-### 5.1 Sous-traitants techniques
-
-- **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics, Crashlytics) — hébergement EU (région `europe-west9`), conformité RGPD.
-- **Google Play / Apple App Store** — traitement des achats intégrés et abonnements. Ces plateformes traitent vos données de paiement selon leurs propres politiques de confidentialité ([Google](https://policies.google.com/privacy), [Apple](https://www.apple.com/legal/privacy/)).
-- **Google AdMob** — diffusion de publicités dans l'Application. Reçoit, selon votre consentement, votre identifiant publicitaire et des données techniques (IP, type de device, langue) pour le ciblage publicitaire. Aucune donnée personnelle nominative (email, nom) n'est transmise.
-- **api-football.com** — fournit les données des matchs (composition équipes, scores, résultats, statistiques). Aucune donnée personnelle ne lui est transmise.
-
-### 5.2 Limites du partage commercial
-
-Nous ne partageons aucune donnée avec :
+Nous ne **vendons** aucune donnée. En dehors des sous-traitants techniques listés en 4.1, nous ne partageons aucune donnée avec :
 - Réseaux sociaux.
 - Brokers de données.
 - Sites de paris en ligne.
-- Annonceurs concurrents (bookmakers FR explicitement bloqués dans AdMob).
 
 ---
 
-## 6. Durée de conservation
+## 5. Durée de conservation
 
 | Donnée | Durée |
 |---|---|
 | Compte utilisateur (users, user_scores, cards, predictions, lineups) | Tant que le compte est actif |
-| Notifications inbox | 7 jours (TTL automatique) |
-| Logs daily claims | 15 jours (TTL automatique) |
 | Logs XP (xp_log) | 30 jours (TTL automatique) |
-| Logs techniques et de sécurité (serveur) | Jusqu'à 90 jours |
-| Justificatifs d'achats intégrés (transactions IAP) | Durée légale applicable (obligations comptables, fiscales et anti-fraude), y compris après suppression du compte |
+| Logs daily claims | 15 jours (TTL automatique) |
+| Notifications inbox | 7 jours (TTL automatique) |
+| Logs serveur Firebase | Selon la politique Google Firebase (~30 jours) |
 
-À la **suppression du compte** (via Réglages → Supprimer mon compte), **vos données personnelles sont effacées définitivement et immédiatement** côté Firebase, en conformité avec l'article 17 du RGPD — à l'exception des justificatifs d'achats conservés pour la durée légale et de statistiques anonymisées agrégées (non rattachables à vous). Voir notre page dédiée : [Suppression de compte](../delete_account_fr/).
+À la **suppression du compte** (via Réglages → Supprimer mon compte), **toutes vos données sont effacées définitivement et immédiatement** côté Firebase, en conformité avec l'article 17 du RGPD.
 
 ---
 
-## 7. Vos droits (RGPD)
+## 6. Vos droits (RGPD)
 
 Conformément au Règlement (UE) 2016/679, vous disposez des droits suivants :
 
 - **Droit d'accès** : consulter les données que nous avons sur vous.
 - **Droit de rectification** : modifier votre pseudo, email, etc.
-- **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. Suppression immédiate et irréversible ([instructions détaillées](../delete_account_fr/)).
-- **Droit à la portabilité** : demander un export de vos données par email à `pronogo.dev@gmail.com`.
-- **Droit d'opposition** : refuser certains traitements (ex : notifications push, désactivables dans les Réglages).
-- **Droit de retirer votre consentement** : à tout moment, notamment pour la publicité personnalisée (Réglages de l'Application ou Réglages de votre appareil).
+- **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. Suppression immédiate et irréversible.
+- **Droit à la portabilité** : demander un export de vos données par email à `support@fcpronox.com`.
+- **Droit d'opposition** : refuser certains traitements (ex : notifications push, désactivable dans Réglages).
 - **Droit d'introduire une réclamation** auprès de la CNIL (www.cnil.fr).
 
-Pour exercer ces droits, contactez-nous à **pronogo.dev@gmail.com**.
+Pour exercer ces droits, contactez-nous à **support@fcpronox.com**.
 
 ---
 
-## 8. Sécurité
+## 7. Sécurité
 
 Vos données sont protégées par :
 
@@ -160,36 +131,33 @@ Vos données sont protégées par :
 - **Chiffrement au repos** : Firebase Firestore et Authentication chiffrent les données stockées.
 - **Contrôle d'accès** : règles Firestore strictes empêchant un utilisateur d'accéder aux données d'un autre.
 - **App Check** : protection contre les abus côté serveur.
-- **Authentification renforcée** : Firebase Authentication, avec vérification d'adresse email.
-- **Vérification serveur des achats** : chaque achat intégré est validé auprès de Google Play / App Store avant d'être crédité.
+- **Authentification renforcée** : Firebase Authentication.
 
 Aucun système n'étant infaillible, nous ne pouvons garantir une sécurité absolue, mais nous mettons en œuvre les meilleures pratiques de l'industrie.
 
 ---
 
-## 9. Mineurs
+## 8. Mineurs
 
-PronoGo est destiné aux personnes **âgées d'au moins 16 ans**. Cette restriction s'applique mondialement (RGPD Europe : article 8 ; aux États-Unis et au Royaume-Uni : conformité COPPA et UK-GDPR par alignement).
+PronoGo n'est **pas destiné aux personnes de moins de 13 ans**. Si vous résidez dans l'Espace économique européen, l'âge minimum est de **16 ans** (sauf consentement parental conformément à votre droit national).
 
-Lors de la création de votre compte, vous déclarez explicitement avoir au moins 16 ans en validant la case de consentement.
-
-Si vous constatez qu'un mineur de moins de 16 ans utilise PronoGo, contactez-nous à `pronogo.dev@gmail.com` — nous procéderons à la suppression du compte sans délai.
+Si vous constatez qu'un enfant de moins de 13 ans (ou 16 ans dans l'UE) utilise PronoGo, contactez-nous à `support@fcpronox.com` — nous procéderons à la suppression du compte sans délai.
 
 ---
 
-## 10. Cookies / stockage local
+## 9. Cookies / stockage local
 
 PronoGo stocke localement sur votre appareil :
 - Token de session Firebase Authentication.
 - Cache offline des données utilisateur (Firestore persistence).
-- Préférences (langue, thème, opt-in notifications, choix de consentement publicitaire).
-- Streak quotidien et compteurs publicitaires (SharedPreferences).
+- Préférences (langue, thème, opt-in notifications).
+- Streak quotidien (SharedPreferences).
 
-Le SDK Google Mobile Ads (AdMob) peut utiliser des identifiants techniques pour le ciblage publicitaire, selon votre consentement (voir section 4). Vous pouvez réinitialiser votre identifiant publicitaire ou désactiver la personnalisation depuis les Réglages de votre appareil → Confidentialité → Publicités.
+Aucun cookie tiers de tracking publicitaire n'est utilisé.
 
 ---
 
-## 11. Modifications de cette Politique
+## 10. Modifications de cette Politique
 
 Nous nous réservons le droit de modifier cette Politique. La date « Dernière mise à jour » sera mise à jour en haut du document.
 
@@ -197,13 +165,13 @@ En cas de modification substantielle, nous vous informerons par notification in-
 
 ---
 
-## 12. Contact
+## 11. Contact
 
 Pour toute question ou demande :
 
-- **Email** : pronogo.dev@gmail.com
+- **Email** : support@fcpronox.com
 - **Adresse** : Mehdi Bouhaouala, Courbevoie, France
 
 ---
 
-*PronoGo est édité par **Mehdi Bouhaouala**, entrepreneur individuel (auto-entrepreneur), domicilié à Courbevoie, France. L'application est gratuite à l'usage, avec des achats intégrés optionnels (packs, boosts et abonnements via Google Play / App Store) et de la publicité (Google AdMob — native ads et rewarded video volontaires). Cette Politique sera mise à jour si le statut éditeur évolue (société) ou si de nouvelles fonctionnalités payantes sont introduites.*
+*PronoGo est un projet indépendant édité par **Mehdi Bouhaouala**, personne physique (particulier), domicilié à Courbevoie, France. L'application est **gratuite** : elle propose des **achats intégrés facultatifs** (packs, abonnement, monnaies virtuelles) et des **publicités vidéo récompensées facultatives**, sans qu'aucun achat ne soit nécessaire pour jouer. **Aucun argent réel n'est mis en jeu et aucun gain monétaire n'est versé aux joueurs.***
