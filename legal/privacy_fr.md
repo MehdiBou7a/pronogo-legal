@@ -115,11 +115,11 @@ Conformément au Règlement (UE) 2016/679, vous disposez des droits suivants :
 - **Droit d'accès** : consulter les données que nous avons sur vous.
 - **Droit de rectification** : modifier votre pseudo, email, etc.
 - **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. Suppression immédiate et irréversible.
-- **Droit à la portabilité** : demander un export de vos données par email à `support@fcpronox.com`.
+- **Droit à la portabilité** : demander un export de vos données par email à `pronogo.dev@gmail.com`.
 - **Droit d'opposition** : refuser certains traitements (ex : notifications push, désactivable dans Réglages).
 - **Droit d'introduire une réclamation** auprès de la CNIL (www.cnil.fr).
 
-Pour exercer ces droits, contactez-nous à **support@fcpronox.com**.
+Pour exercer ces droits, contactez-nous à **pronogo.dev@gmail.com**.
 
 ---
 
@@ -141,7 +141,7 @@ Aucun système n'étant infaillible, nous ne pouvons garantir une sécurité abs
 
 PronoGo n'est **pas destiné aux personnes de moins de 13 ans**. Si vous résidez dans l'Espace économique européen, l'âge minimum est de **16 ans** (sauf consentement parental conformément à votre droit national).
 
-Si vous constatez qu'un enfant de moins de 13 ans (ou 16 ans dans l'UE) utilise PronoGo, contactez-nous à `support@fcpronox.com` — nous procéderons à la suppression du compte sans délai.
+Si vous constatez qu'un enfant de moins de 13 ans (ou 16 ans dans l'UE) utilise PronoGo, contactez-nous à `pronogo.dev@gmail.com` — nous procéderons à la suppression du compte sans délai.
 
 ---
 
@@ -169,7 +169,7 @@ En cas de modification substantielle, nous vous informerons par notification in-
 
 Pour toute question ou demande :
 
-- **Email** : support@fcpronox.com
+- **Email** : pronogo.dev@gmail.com
 - **Adresse** : Mehdi Bouhaouala, Courbevoie, France
 
 ---

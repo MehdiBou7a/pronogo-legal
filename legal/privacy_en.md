@@ -115,11 +115,11 @@ In accordance with Regulation (EU) 2016/679, you have the following rights:
 - **Right of access**: see the data we have about you.
 - **Right of rectification**: modify your nickname, email, etc.
 - **Right to erasure ("right to be forgotten")**: exercise via Settings → Delete my account. Immediate and irreversible deletion.
-- **Right to portability**: request an export of your data by email to `support@fcpronox.com`.
+- **Right to portability**: request an export of your data by email to `pronogo.dev@gmail.com`.
 - **Right to object**: refuse certain processing (e.g., push notifications, disable in Settings).
 - **Right to lodge a complaint** with your data protection authority (e.g., CNIL in France: www.cnil.fr).
 
-To exercise these rights, contact us at **support@fcpronox.com**.
+To exercise these rights, contact us at **pronogo.dev@gmail.com**.
 
 ---
 
@@ -141,7 +141,7 @@ No system is infallible; we cannot guarantee absolute security, but we implement
 
 PronoGo is **not intended for persons under 13 years old**. If you reside in the European Economic Area, the minimum age is **16 years** (unless parental consent in accordance with your national law).
 
-If you become aware that a child under 13 (or 16 in the EU) is using PronoGo, contact us at `support@fcpronox.com` — we will delete the account without delay.
+If you become aware that a child under 13 (or 16 in the EU) is using PronoGo, contact us at `pronogo.dev@gmail.com` — we will delete the account without delay.
 
 ---
 
@@ -169,7 +169,7 @@ In case of substantial changes, we will inform you via in-app notification or em
 
 For any questions or requests:
 
-- **Email**: support@fcpronox.com
+- **Email**: pronogo.dev@gmail.com
 - **Address**: Mehdi Bouhaouala, Courbevoie, France
 
 ---
