@@ -136,7 +136,7 @@ We do not share any data with:
 | In-app purchase records (IAP transactions) | Legally required duration (accounting, tax and anti-fraud obligations), including after account deletion |
 | League chat messages | **30 days at most**, and only the **last 200 messages** of each league are kept (automatic daily purge) |
 | Your list of blocked players | As long as your account exists, or until you lift the block |
-| Report files | For as long as needed to review the report and to prevent repeat behaviour. **They are not subject to an automatic purge on a fixed schedule**: a report you filed is deleted when you delete your account, and a report targeting your profile is deleted when you delete yours |
+| Report files | **90 days**, by automatic purge. This duration is not arbitrary: the file acts as a lock against repeated reports, and the message it targets lives at most 30 days — three times that duration leaves room for review without keeping a trace that has become unverifiable. A file you submitted is also deleted when you delete your account, and a report targeting your profile is deleted when you delete yours |
 
 Upon **account deletion** (via Settings → Delete my account), your personal data is **irreversibly erased** on the Firebase side, in compliance with Article 17 of the GDPR: account, cards, predictions, line-ups, friends, private messages, progress and history.
 

@@ -136,7 +136,7 @@ Nous ne partageons aucune donnée avec :
 | Justificatifs d'achats intégrés (transactions IAP) | Durée légale applicable (obligations comptables, fiscales et anti-fraude), y compris après suppression du compte |
 | Messages de discussion de ligue | **30 jours au maximum**, et seuls les **200 derniers messages** de chaque ligue sont conservés (purge automatique quotidienne) |
 | Liste des joueurs que vous avez bloqués | Tant que votre compte existe, ou jusqu'à ce que vous leviez le blocage |
-| Dossiers de signalement | Le temps nécessaire à l'examen du signalement et à la prévention des récidives. **Ils ne font pas l'objet d'une purge automatique à date fixe** : un dossier que vous avez déposé est supprimé lorsque vous supprimez votre compte, et un signalement visant votre profil est supprimé lorsque vous supprimez le vôtre |
+| Dossiers de signalement | **90 jours**, par purge automatique. Cette durée n'est pas arbitraire : le dossier sert de verrou contre les signalements répétés, et le message qu'il vise vit au maximum 30 jours — trois fois cette durée laisse le temps de l'examen sans conserver une trace devenue invérifiable. Un dossier que vous avez déposé est en outre supprimé lorsque vous supprimez votre compte, et un signalement visant votre profil l'est lorsque vous supprimez le vôtre |
 
 À la **suppression du compte** (via Réglages → Supprimer mon compte), vos données personnelles sont **effacées de façon irréversible** côté Firebase, conformément à l'article 17 du RGPD : compte, cartes, pronostics, compositions, amis, messages privés, progression et historiques.
 
