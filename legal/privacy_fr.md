@@ -45,8 +45,11 @@ Dans tous les cas :
 - **Cartes possédées** : collection, niveaux, évolutions, bonus.
 - **Lineups deck** : compositions hebdomadaires.
 - **Scores et classements** : weekly, monthly, season, lifetime.
-- **Niveau XP, missions accomplies, défis Tribunal, mini-jeux, cartes mythiques**.
+- **Niveau XP, missions accomplies, mini-jeux, cartes mythiques**.
 - **Membres de ligues privées** et **liste d'amis**.
+- **Messages de discussion de ligue** : le texte que vous publiez, votre pseudonyme et la date de publication. Ils sont visibles par les autres membres de la ligue concernée (voir CGU, section 5.3).
+- **Signalements** : lorsque vous signalez un message ou le profil d'un joueur, nous enregistrons un dossier de modération qui contient **votre identifiant de signalant ET celui de la personne signalée**, la ligue et le message concernés, le motif que vous saisissez, et — pour un signalement de profil — le **pseudonyme public de la personne signalée** au moment du signalement. Un dossier de signalement porte donc des données sur **deux** personnes.
+- **Liste des joueurs que vous avez bloqués** : pour chaque joueur bloqué, son identifiant et le **pseudonyme qu'il portait au moment du blocage** (50 au maximum). Cette liste n'est visible que par vous.
 - **Parrainage (code ami)** : si vous saisissez le code d'un parrain (ou si quelqu'un saisit le vôtre), le lien parrain/filleul est enregistré et votre **pseudonyme est visible par votre parrain** (et réciproquement) dans son suivi de parrainage. Aucune autre donnée personnelle n'est partagée via le parrainage.
 
 ### 2.3 Données techniques
@@ -131,10 +134,13 @@ Nous ne partageons aucune donnée avec :
 | Logs XP (xp_log) | 30 jours (TTL automatique) |
 | Logs techniques et de sécurité (serveur) | Jusqu'à 90 jours |
 | Justificatifs d'achats intégrés (transactions IAP) | Durée légale applicable (obligations comptables, fiscales et anti-fraude), y compris après suppression du compte |
+| Messages de discussion de ligue | **30 jours au maximum**, et seuls les **200 derniers messages** de chaque ligue sont conservés (purge automatique quotidienne) |
+| Liste des joueurs que vous avez bloqués | Tant que votre compte existe, ou jusqu'à ce que vous leviez le blocage |
+| Dossiers de signalement | Le temps nécessaire à l'examen du signalement et à la prévention des récidives. **Ils ne font pas l'objet d'une purge automatique à date fixe** : un dossier que vous avez déposé est supprimé lorsque vous supprimez votre compte, et un signalement visant votre profil est supprimé lorsque vous supprimez le vôtre |
 
 À la **suppression du compte** (via Réglages → Supprimer mon compte), vos données personnelles sont **effacées de façon irréversible** côté Firebase, conformément à l'article 17 du RGPD : compte, cartes, pronostics, compositions, amis, messages privés, progression et historiques.
 
-**Cinq exceptions, et nous préférons vous les dire :**
+**Six exceptions, et nous préférons vous les dire :**
 
 | Ce qui subsiste | Pourquoi | Combien de temps |
 |---|---|---|
@@ -143,6 +149,7 @@ Nous ne partageons aucune donnée avec :
 | Votre **ligne de classement dans une ligue encore en cours** | La retirer fausserait le résultat des autres participants. Elle est **anonymisée en « Compte supprimé »** | Jusqu'à la fin de cette ligue |
 | Votre **place au palmarès d'une saison terminée** | C'est l'histoire commune du jeu ; la réécrire changerait le classement des autres joueurs. Seules des informations **déjà publiques** y figurent (pseudonyme, hauteur atteinte, palier) | Conservé |
 | Des **statistiques agrégées et anonymisées** | Elles ne sont plus rattachables à vous | Conservé |
+| Les **dossiers de signalement portant sur un message que vous aviez publié** | Ils documentent le traitement d'un signalement déposé par un autre joueur. Le message lui-même a déjà disparu (purge à 30 jours) ; il ne subsiste que la trace de modération | Conservé comme trace de modération |
 
 Tout le reste part. Voir notre page dédiée : [Suppression de compte](../delete_account_fr/).
 
@@ -154,7 +161,7 @@ Conformément au Règlement (UE) 2016/679, vous disposez des droits suivants :
 
 - **Droit d'accès** : consulter les données que nous avons sur vous.
 - **Droit de rectification** : modifier votre pseudo, email, etc.
-- **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. La suppression est irréversible ; les quatre exceptions sont listées en section 5 ([instructions détaillées](../delete_account_fr/)).
+- **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. La suppression est irréversible ; les six exceptions sont listées en section 6 ([instructions détaillées](../delete_account_fr/)).
 - **Droit à la portabilité** : demander un export de vos données par email à `pronogo.dev@gmail.com`.
 - **Droit d'opposition** : refuser certains traitements (ex : notifications push, désactivables dans les Réglages).
 - **Droit de retirer votre consentement** : à tout moment, notamment pour la publicité personnalisée (Réglages de l'Application ou Réglages de votre appareil).

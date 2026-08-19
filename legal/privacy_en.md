@@ -45,8 +45,11 @@ In all cases:
 - **Owned cards**: collection, levels, evolutions, bonuses.
 - **Deck lineups**: weekly compositions.
 - **Scores and rankings**: weekly, monthly, season, lifetime.
-- **XP level, completed missions, Tribunal challenges, mini-games, mythic cards**.
+- **XP level, completed missions, mini-games, mythic cards**.
 - **Private league memberships** and **friend list**.
+- **League chat messages**: the text you post, your display name, and the date of posting. They are visible to the other members of the relevant league (see Terms of Service, section 5.3).
+- **Reports**: when you report a message or a player's profile, we record a moderation file containing **your identifier as the reporter AND that of the reported person**, the league and message concerned, the reason you enter, and — for a profile report — the **public display name of the reported person** at the time of the report. A report file therefore holds data about **two** people.
+- **Your list of blocked players**: for each blocked player, their identifier and the **display name they had at the time you blocked them** (50 maximum). This list is visible only to you.
 - **Referral (friend code)**: if you enter a referrer's code (or someone enters yours), the referrer/referee link is recorded and your **display name is visible to your referrer** (and vice versa) in their referral tracking. No other personal data is shared through the referral system.
 
 ### 2.3 Technical data
@@ -131,10 +134,13 @@ We do not share any data with:
 | XP logs (xp_log) | 30 days (automatic TTL) |
 | Technical and security logs (server) | Up to 90 days |
 | In-app purchase records (IAP transactions) | Legally required duration (accounting, tax and anti-fraud obligations), including after account deletion |
+| League chat messages | **30 days at most**, and only the **last 200 messages** of each league are kept (automatic daily purge) |
+| Your list of blocked players | As long as your account exists, or until you lift the block |
+| Report files | For as long as needed to review the report and to prevent repeat behaviour. **They are not subject to an automatic purge on a fixed schedule**: a report you filed is deleted when you delete your account, and a report targeting your profile is deleted when you delete yours |
 
 Upon **account deletion** (via Settings → Delete my account), your personal data is **irreversibly erased** on the Firebase side, in compliance with Article 17 of the GDPR: account, cards, predictions, line-ups, friends, private messages, progress and history.
 
-**Five exceptions, and we would rather tell you about them:**
+**Six exceptions, and we would rather tell you about them:**
 
 | What remains | Why | For how long |
 |---|---|---|
@@ -143,6 +149,7 @@ Upon **account deletion** (via Settings → Delete my account), your personal da
 | Your **standings row in a league still in progress** | Removing it would distort the result for the other participants. It is **anonymized as "Deleted account"** | Until that league ends |
 | Your **place in a finished season's hall of fame** | It is the shared history of the game; rewriting it would change other players' standings. Only **already public** information appears there (display name, height reached, tier) | Kept |
 | **Aggregated, anonymized statistics** | They are no longer linkable to you | Kept |
+| **Report files concerning a message you had posted** | They document the handling of a report filed by another player. The message itself is already gone (30-day purge); only the moderation record remains | Kept as a moderation record |
 
 Everything else goes. See our dedicated page: [Account Deletion](../delete_account_en/).
 
@@ -154,7 +161,7 @@ In accordance with Regulation (EU) 2016/679, you have the following rights:
 
 - **Right of access**: see the data we have about you.
 - **Right of rectification**: modify your nickname, email, etc.
-- **Right to erasure ("right to be forgotten")**: exercise via Settings → Delete my account. Deletion is irreversible; the four exceptions are listed in section 5 ([detailed instructions](../delete_account_en/)).
+- **Right to erasure ("right to be forgotten")**: exercise via Settings → Delete my account. Deletion is irreversible; the six exceptions are listed in section 6 ([detailed instructions](../delete_account_en/)).
 - **Right to portability**: request an export of your data by email to `pronogo.dev@gmail.com`.
 - **Right to object**: refuse certain processing (e.g., push notifications, can be disabled in Settings).
 - **Right to withdraw consent**: at any time, in particular for personalized advertising (Application Settings or your device Settings).
