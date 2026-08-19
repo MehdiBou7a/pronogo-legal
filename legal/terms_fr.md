@@ -6,8 +6,8 @@ description: Les règles d'utilisation de l'application PronoGo.
 
 # Conditions Générales d'Utilisation — PronoGo
 
-**Dernière mise à jour** : 24 mai 2026
-**Version** : 1.1
+**Dernière mise à jour** : 19 août 2026
+**Version** : 1.2
 
 [← Retour à l'accueil](../../) · [English version](../terms_en/)
 
@@ -25,17 +25,19 @@ En téléchargeant, installant ou utilisant l'Application, vous acceptez sans r�
 
 PronoGo est un **jeu mobile de pronostics sportifs basé exclusivement sur des monnaies virtuelles** (tokens, pronocoins). Le service permet :
 
-- De faire des pronostics sur des matchs de football européens.
+- De faire des pronostics sur des matchs de football, en Europe comme dans le reste du monde.
 - De collectionner et d'évoluer des cartes virtuelles.
 - De composer des équipes hebdomadaires (deck).
-- De participer à des classements (weekly / mensuel / saison).
-- De rejoindre des ligues privées entre amis ou des ligues publiques.
-- De compléter des missions et des défis (Tribunal).
+- De participer à des classements (hebdomadaire / mensuel / saison) et à des duels entre joueurs (Arène).
+- De rejoindre des ligues privées entre amis, des ligues PronoGo, ou des ligues publiques.
+- **D'échanger des messages écrits avec les autres membres d'une ligue privée ou d'une ligue PronoGo** (voir section 5.3).
+- De compléter des missions, des défis et des événements temporaires.
 - De progresser dans un système d'XP et de niveaux.
+- D'acquérir des cartes et des éléments cosmétiques avec les monnaies virtuelles du jeu.
 
 ### ⚠️ Pas de paris en argent réel
 
-**PronoGo n'est ni une plateforme de paris sportifs, ni un casino en ligne, ni un service de jeux d'argent.** Toutes les monnaies de l'Application (tokens, pronocoins, packs, etc.) sont **virtuelles**, sans valeur monétaire réelle, **non échangeables** contre de l'argent, des biens, ou des services hors de l'Application. Les éventuels achats in-app permettent uniquement d'acquérir des monnaies virtuelles ou des éléments de gameplay — il ne s'agit jamais d'un placement, d'un investissement ou d'un pari ouvrant droit à des gains monétaires.
+**PronoGo n'est ni une plateforme de paris sportifs, ni un casino en ligne, ni un service de jeux d'argent.** Toutes les monnaies de l'Application (tokens, pronocoins, packs, etc.) sont **virtuelles**, sans valeur monétaire réelle, **non échangeables** contre de l'argent, des biens, ou des services hors de l'Application. Les achats in-app permettent uniquement d'acquérir des monnaies virtuelles ou des éléments de gameplay — il ne s'agit jamais d'un placement, d'un investissement ou d'un pari ouvrant droit à des gains monétaires.
 
 PronoGo n'est pas régi par les autorités françaises de régulation des jeux d'argent (ANJ).
 
@@ -90,7 +92,7 @@ En utilisant PronoGo, vous vous engagez à ne pas :
 - **Modifier, décompiler, ou reverse-engineer** l'Application.
 - **Vendre, acheter, ou échanger** des comptes, des cartes, des monnaies virtuelles contre de l'argent réel ou en dehors des canaux officiels de l'Application.
 - **Manipuler les classements** par collusion, exploitation de bugs, ou comportement frauduleux.
-- **Harceler** d'autres utilisateurs (via les pseudos, les ligues privées, le système d'amis).
+- **Harceler** d'autres utilisateurs (via les pseudos, la discussion de ligue, les ligues privées, le système d'amis).
 - Utiliser l'Application à des fins **illégales**.
 
 ### 5.2 Sanctions
@@ -101,6 +103,43 @@ En cas de violation, nous nous réservons le droit, sans préavis ni indemnité,
 - Suspendre temporairement ou définitivement votre compte.
 - Supprimer votre compte et toutes vos données associées.
 - Engager des poursuites judiciaires si nécessaire.
+
+### 5.3 Discussion de ligue et contenu publié par les joueurs
+
+L'Application propose une **discussion écrite à l'intérieur des ligues privées et des ligues PronoGo**. Les messages y sont rédigés et publiés par les joueurs eux-mêmes : ils n'expriment pas notre position et ne sont pas relus avant publication.
+
+**Tolérance zéro.** En publiant un message, vous vous engagez à ne rien publier de répréhensible. Sont interdits, sans avertissement préalable :
+
+- Les insultes, les menaces, et le harcèlement.
+- Les propos racistes, sexistes, homophobes, ou incitant à la haine ou à la violence.
+- Les contenus sexuels ou pornographiques, et tout contenu impliquant un mineur.
+- La publicité, les liens commerciaux, les sollicitations, et le spam.
+- La divulgation des coordonnées personnelles d'un tiers.
+- L'usurpation de l'identité d'un autre joueur, d'une personnalité, ou de l'éditeur.
+- Tout contenu illégal, ou portant atteinte aux droits d'un tiers.
+
+Nous pouvons **retirer tout contenu** contraire à ces règles et **suspendre ou supprimer le compte** de son auteur, sans préavis ni indemnité, dans les conditions prévues à la section 5.2.
+
+**Ce que vous nous autorisez à faire de vos messages.** En publiant un message, vous nous accordez le droit, gratuit et non exclusif, de l'afficher aux autres membres de la ligue concernée, et de le conserver le temps nécessaire à cet affichage et au traitement d'un éventuel signalement. Vous restez responsable de ce que vous publiez.
+
+**Durée de conservation.** Les messages sont supprimés automatiquement **au plus tard 30 jours** après leur publication, et seuls les **200 derniers messages** de chaque ligue sont conservés. Un message supprimé ne peut pas être restauré.
+
+**Limites techniques.** Un message est limité à 300 caractères, et l'envoi est limité à un message toutes les 3 secondes.
+
+### 5.4 Signaler un contenu, bloquer un joueur
+
+**Signaler.** Chaque message publié par un autre joueur peut être signalé depuis la discussion (appui long sur le message, puis « Signaler »). Un message signalé par **plusieurs joueurs est masqué automatiquement**, immédiatement, en attendant son examen. Nous nous engageons à examiner les signalements et à retirer les contenus contraires aux présentes CGU **dans un délai de 24 heures**.
+
+**Bloquer.** Chaque joueur peut en bloquer un autre depuis la discussion, depuis sa fiche de profil, ou depuis **Réglages → Joueurs bloqués**. Une fois un joueur bloqué :
+
+- Ses messages et ses emotes ne vous sont plus montrés.
+- Vous ne recevez plus les notifications déclenchées par ses messages.
+- Il ne peut plus vous envoyer de demande d'ami.
+- Les scores, les classements, et les ligues ne sont **pas** modifiés : bloquer est un filtre personnel d'affichage, pas une exclusion du jeu.
+
+Vous pouvez lever un blocage à tout moment depuis **Réglages → Joueurs bloqués**.
+
+**Nous contacter.** Tout contenu ou comportement peut également nous être signalé directement à `pronogo.dev@gmail.com` (voir section 13).
 
 ---
 
@@ -117,7 +156,13 @@ Les monnaies virtuelles de PronoGo (tokens, pronocoins) :
 
 ### 6.2 Achats in-app
 
-L'Application propose des achats in-app permettant d'acquérir des monnaies virtuelles ou des éléments de gameplay (packs, boosters, abonnements, etc.). Ces achats :
+L'Application propose des achats in-app **facultatifs** permettant d'acquérir des monnaies virtuelles (Goalards, PronoCoins) ou des lots de jeu (packs de cartes, lot de bienvenue). **Aucun achat n'est nécessaire pour jouer.**
+
+Au jour de la présente mise à jour, le catalogue compte **9 produits, tous consommables** : cinq paliers de Goalards, deux recharges de PronoCoins, un lot de bienvenue, et un lot de packs de cartes. **Aucun abonnement, et aucun paiement à renouvellement automatique, n'est proposé.** Si un abonnement venait à être introduit, ses conditions (durée, prix, reconduction, résiliation) seraient affichées avant l'achat et les présentes CGU mises à jour en conséquence.
+
+Les packs de cartes contiennent des cartes tirées au sort ; **les probabilités de chaque rareté sont affichées dans l'Application avant l'achat.**
+
+Ces achats :
 
 - Sont définitifs et **non remboursables** (sauf si la loi applicable l'exige, ou en cas de dysfonctionnement avéré de notre fait).
 - Donnent droit uniquement aux éléments virtuels achetés.

@@ -6,8 +6,8 @@ description: The rules for using the PronoGo application.
 
 # Terms of Service — PronoGo
 
-**Last updated**: May 24, 2026
-**Version**: 1.1
+**Last updated**: August 19, 2026
+**Version**: 1.2
 
 [← Back to home](../../) · [Version française](../terms_fr/)
 
@@ -25,17 +25,19 @@ By downloading, installing, or using the Application, you accept these ToS witho
 
 PronoGo is a **mobile sports prediction game based exclusively on virtual currencies** (tokens, pronocoins). The service allows you to:
 
-- Make predictions on European football matches.
+- Make predictions on football matches, in Europe and around the world.
 - Collect and evolve virtual cards.
 - Compose weekly teams (deck).
-- Participate in rankings (weekly / monthly / season).
-- Join private leagues with friends or public leagues.
-- Complete missions and challenges (Tribunal).
+- Participate in rankings (weekly / monthly / season) and in duels between players (Arena).
+- Join private leagues with friends, PronoGo leagues, or public leagues.
+- **Exchange written messages with the other members of a private league or a PronoGo league** (see section 5.3).
+- Complete missions, challenges, and limited-time events.
 - Progress through an XP and level system.
+- Acquire cards and cosmetic items using the game's virtual currencies.
 
 ### ⚠️ No real-money gambling
 
-**PronoGo is neither a sports betting platform, nor an online casino, nor a gambling service.** All currencies in the Application (tokens, pronocoins, packs, etc.) are **virtual**, with no real monetary value, **non-exchangeable** for money, goods, or services outside the Application. Any in-app purchases only allow you to acquire virtual currencies or gameplay items — they are never investments, deposits, or bets entitling you to monetary winnings.
+**PronoGo is neither a sports betting platform, nor an online casino, nor a gambling service.** All currencies in the Application (tokens, pronocoins, packs, etc.) are **virtual**, with no real monetary value, **non-exchangeable** for money, goods, or services outside the Application. In-app purchases only allow you to acquire virtual currencies or gameplay items — they are never investments, deposits, or bets entitling you to monetary winnings.
 
 PronoGo is not regulated as a gambling service.
 
@@ -49,7 +51,7 @@ The use of the Application is reserved for persons who:
 - Are **legally capable** of contracting under their national law.
 - **Reside in a country where PronoGo is distributed** by Apple App Store and Google Play. PronoGo is notably not distributed in Belgium.
 
-If you are a minor, you must obtain prior consent from your legal representative before using the Application.
+When creating your account, you explicitly declare that you are at least 16 years old by ticking the consent box. If you are a minor between 16 and 18 years old, you must obtain prior consent from your legal representative to use the Application and to make any in-app purchase.
 
 ---
 
@@ -90,7 +92,7 @@ By using PronoGo, you undertake not to:
 - **Modify, decompile, or reverse-engineer** the Application.
 - **Sell, buy, or exchange** accounts, cards, virtual currencies for real money or outside the official channels of the Application.
 - **Manipulate rankings** through collusion, exploitation of bugs, or fraudulent behavior.
-- **Harass** other users (via nicknames, private leagues, friend system).
+- **Harass** other users (via nicknames, league chat, private leagues, friend system).
 - Use the Application for **illegal purposes**.
 
 ### 5.2 Sanctions
@@ -101,6 +103,43 @@ In case of violation, we reserve the right, without notice or compensation, to:
 - Temporarily or permanently suspend your account.
 - Delete your account and all associated data.
 - Initiate legal proceedings if necessary.
+
+### 5.3 League chat and content published by players
+
+The Application offers a **written chat inside private leagues and PronoGo leagues**. Messages there are written and published by players themselves: they do not express our position and are not reviewed before publication.
+
+**Zero tolerance.** By posting a message, you undertake not to publish any objectionable content. The following are prohibited, without prior warning:
+
+- Insults, threats, and harassment.
+- Racist, sexist, or homophobic content, or content inciting hatred or violence.
+- Sexual or pornographic content, and any content involving a minor.
+- Advertising, commercial links, solicitation, and spam.
+- Disclosure of a third party's personal contact information.
+- Impersonation of another player, of a public figure, or of the publisher.
+- Any illegal content, or content infringing the rights of a third party.
+
+We may **remove any content** that breaches these rules and **suspend or delete the account** of its author, without notice or compensation, under the conditions set out in section 5.2.
+
+**What you allow us to do with your messages.** By posting a message, you grant us the free, non-exclusive right to display it to the other members of the relevant league, and to retain it for as long as necessary for that display and for handling any report. You remain responsible for what you publish.
+
+**Retention.** Messages are deleted automatically **within 30 days at most** of publication, and only the **last 200 messages** of each league are kept. A deleted message cannot be restored.
+
+**Technical limits.** A message is limited to 300 characters, and sending is limited to one message every 3 seconds.
+
+### 5.4 Reporting content, blocking a player
+
+**Reporting.** Any message posted by another player can be reported from the chat (long press on the message, then "Report"). A message reported by **several players is hidden automatically**, immediately, pending review. We undertake to review reports and to remove content that breaches these ToS **within 24 hours**.
+
+**Blocking.** Any player can block another player from the chat, from their profile page, or from **Settings → Blocked players**. Once a player is blocked:
+
+- Their messages and emotes are no longer shown to you.
+- You no longer receive the notifications triggered by their messages.
+- They can no longer send you a friend request.
+- Scores, rankings, and leagues are **not** affected: blocking is a personal display filter, not an exclusion from the game.
+
+You can lift a block at any time from **Settings → Blocked players**.
+
+**Contacting us.** Any content or behavior can also be reported to us directly at `pronogo.dev@gmail.com` (see section 13).
 
 ---
 
@@ -117,7 +156,13 @@ The virtual currencies of PronoGo (tokens, pronocoins):
 
 ### 6.2 In-app purchases
 
-The Application offers in-app purchases allowing acquisition of virtual currencies or gameplay items (packs, boosters, subscriptions, etc.). These purchases:
+The Application offers **optional** in-app purchases allowing acquisition of virtual currencies (Goalards, PronoCoins) or game bundles (card packs, welcome bundle). **No purchase is required to play.**
+
+As of this update, the catalogue contains **9 products, all consumable**: five Goalard tiers, two PronoCoin top-ups, a welcome bundle, and a card pack bundle. **No subscription, and no auto-renewing payment, is offered.** Should a subscription be introduced, its terms (duration, price, renewal, cancellation) would be displayed before purchase and these ToS updated accordingly.
+
+Card packs contain randomly drawn cards; **the probability of each rarity is displayed in the Application before purchase.**
+
+These purchases:
 
 - Are final and **non-refundable** (unless applicable law requires otherwise, or in case of proven malfunction on our part).
 - Entitle you only to the purchased virtual items.
