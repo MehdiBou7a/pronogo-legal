@@ -6,8 +6,8 @@ description: How PronoGo collects, uses and protects your personal data.
 
 # Privacy Policy — PronoGo
 
-**Last updated**: June 11, 2026
-**Version**: 1.2
+**Last updated**: August 19, 2026
+**Version**: 1.3
 
 [← Back to home](../../) · [Version française](../privacy_fr/)
 
@@ -60,7 +60,7 @@ In all cases:
 
 ### 2.4 Transaction data (in-app purchases)
 
-If you make an in-app purchase (pack, boost, subscription), the transaction is **entirely processed by Google Play or the App Store**. We **never see and never store** your card number or payment details.
+If you make an in-app purchase (virtual currency, card pack, welcome bundle), the transaction is **entirely processed by Google Play or the App Store**. We **never see and never store** your card number or payment details.
 
 We receive and keep only: the identifier of the purchased product, a transaction token/identifier provided by the platform (to verify the purchase and credit your account), the date, and the transaction state. 
 
@@ -81,7 +81,7 @@ Your data is used exclusively to:
 1. **Provide the service**: login, save your progression, calculate scores, resolve predictions via the api-football.com API.
 2. **Personalize the experience**: rankings, recommendations, match and result notifications.
 3. **Social system**: display your nickname in leagues, manage friend list, friend rankings, and referrals.
-4. **Process your in-app purchases**: verify transactions with Google Play / App Store, credit purchased items, apply subscriptions, prevent fraud, and meet our accounting and tax obligations.
+4. **Process your in-app purchases**: verify transactions with Google Play / App Store, credit purchased items, prevent fraud, and meet our accounting and tax obligations.
 5. **Secure the service**: abuse detection, anti-cheat, rate limiting.
 6. **Improve the application**: anonymized usage analysis (Firebase Analytics), bug fixing (Crashlytics).
 7. **Advertising monetization**: display ads via Google AdMob (native ads and optional rewarded videos). See section 4 regarding consent.
@@ -107,7 +107,7 @@ The Application currently offers **no subscription**: all in-app purchases are o
 ### 5.1 Technical subcontractors
 
 - **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics, Crashlytics) — EU hosting (region `europe-west9`), GDPR compliant.
-- **Google Play / Apple App Store** — processing of in-app purchases and subscriptions. These platforms process your payment data under their own privacy policies ([Google](https://policies.google.com/privacy), [Apple](https://www.apple.com/legal/privacy/)).
+- **Google Play / Apple App Store** — processing of in-app purchases. These platforms process your payment data under their own privacy policies ([Google](https://policies.google.com/privacy), [Apple](https://www.apple.com/legal/privacy/)).
 - **Google AdMob** — serves ads in the Application. Receives, subject to your consent, your advertising identifier and technical data (IP, device type, language) for ad targeting. No nominative personal data (email, name) is transmitted.
 - **api-football.com** — provides match data (team lineups, scores, results, statistics). No personal data is transmitted to it.
 
@@ -134,12 +134,13 @@ We do not share any data with:
 
 Upon **account deletion** (via Settings → Delete my account), your personal data is **irreversibly erased** on the Firebase side, in compliance with Article 17 of the GDPR: account, cards, predictions, line-ups, friends, private messages, progress and history.
 
-**Four exceptions, and we would rather tell you about them:**
+**Five exceptions, and we would rather tell you about them:**
 
 | What remains | Why | For how long |
 |---|---|---|
 | **Purchase records** | Accounting and tax obligation — Article 17.3(b) of the GDPR expressly covers this case | Statutory retention period |
 | Messages you **already posted in a league that carries on without you** | Erasing them would leave holes in other members' conversation | Automatically purged after 30 days |
+| Your **standings row in a league still in progress** | Removing it would distort the result for the other participants. It is **anonymized as "Deleted account"** | Until that league ends |
 | Your **place in a finished season's hall of fame** | It is the shared history of the game; rewriting it would change other players' standings. Only **already public** information appears there (display name, height reached, tier) | Kept |
 | **Aggregated, anonymized statistics** | They are no longer linkable to you | Kept |
 
@@ -217,4 +218,4 @@ For any questions or requests:
 
 ---
 
-*PronoGo is published by **Mehdi Bouhaouala**, sole proprietor (auto-entrepreneur), resident in Courbevoie, France. The application is free to use, with optional in-app purchases (packs, boosts and subscriptions via Google Play / App Store) and advertising (Google AdMob — native ads and optional rewarded videos). This Policy will be updated if the publisher status evolves (company) or if new paid features are introduced.*
+*PronoGo is published by **Mehdi Bouhaouala**, sole proprietor (auto-entrepreneur), resident in Courbevoie, France. The application is free to use, with optional in-app purchases (virtual currencies and game bundles via Google Play / App Store, all consumable — no subscription) and advertising (Google AdMob — native ads and optional rewarded videos). This Policy will be updated if the publisher status evolves (company) or if new paid features are introduced.*

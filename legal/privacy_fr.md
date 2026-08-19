@@ -6,8 +6,8 @@ description: Comment PronoGo collecte, utilise et protège vos données personne
 
 # Politique de confidentialité — PronoGo
 
-**Dernière mise à jour** : 11 juin 2026
-**Version** : 1.2
+**Dernière mise à jour** : 19 août 2026
+**Version** : 1.3
 
 [← Retour à l'accueil](../../) · [English version](../privacy_en/)
 
@@ -60,7 +60,7 @@ Dans tous les cas :
 
 ### 2.4 Données de transaction (achats intégrés)
 
-Si vous effectuez un achat intégré (pack, boost, abonnement), la transaction est **entièrement traitée par Google Play ou l'App Store**. Nous **ne voyons jamais et ne stockons jamais** votre numéro de carte bancaire ni vos coordonnées de paiement.
+Si vous effectuez un achat intégré (monnaie virtuelle, pack de cartes, lot de bienvenue), la transaction est **entièrement traitée par Google Play ou l'App Store**. Nous **ne voyons jamais et ne stockons jamais** votre numéro de carte bancaire ni vos coordonnées de paiement.
 
 Nous recevons et conservons uniquement : l'identifiant du produit acheté, un jeton/identifiant de transaction fourni par la plateforme (pour vérifier l'achat et créditer votre compte), la date et l'état de la transaction. 
 
@@ -81,7 +81,7 @@ Vos données sont utilisées exclusivement pour :
 1. **Fournir le service** : login, sauvegarde de votre progression, calcul des scores, résolution des pronostics via l'API api-football.com.
 2. **Personnaliser l'expérience** : classements, recommandations, notifications de matchs et résultats.
 3. **Système social** : afficher votre pseudo dans les ligues, gérer la liste d'amis, les classements amis et le parrainage.
-4. **Traiter vos achats intégrés** : vérifier les transactions auprès de Google Play / App Store, créditer les éléments achetés, appliquer les abonnements, prévenir la fraude, et satisfaire nos obligations comptables et fiscales.
+4. **Traiter vos achats intégrés** : vérifier les transactions auprès de Google Play / App Store, créditer les éléments achetés, prévenir la fraude, et satisfaire nos obligations comptables et fiscales.
 5. **Sécuriser le service** : détection d'abus, anti-cheat, rate limiting.
 6. **Améliorer l'application** : analyse anonymisée d'usage (Firebase Analytics), correction des bugs (Crashlytics).
 7. **Monétisation par publicité** : affichage de publicités via Google AdMob (native ads et rewarded video volontaires). Voir section 4 pour le consentement.
@@ -107,7 +107,7 @@ L'Application ne propose actuellement **aucun abonnement** : tous les achats int
 ### 5.1 Sous-traitants techniques
 
 - **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics, Crashlytics) — hébergement EU (région `europe-west9`), conformité RGPD.
-- **Google Play / Apple App Store** — traitement des achats intégrés et abonnements. Ces plateformes traitent vos données de paiement selon leurs propres politiques de confidentialité ([Google](https://policies.google.com/privacy), [Apple](https://www.apple.com/legal/privacy/)).
+- **Google Play / Apple App Store** — traitement des achats intégrés. Ces plateformes traitent vos données de paiement selon leurs propres politiques de confidentialité ([Google](https://policies.google.com/privacy), [Apple](https://www.apple.com/legal/privacy/)).
 - **Google AdMob** — diffusion de publicités dans l'Application. Reçoit, selon votre consentement, votre identifiant publicitaire et des données techniques (IP, type de device, langue) pour le ciblage publicitaire. Aucune donnée personnelle nominative (email, nom) n'est transmise.
 - **api-football.com** — fournit les données des matchs (composition équipes, scores, résultats, statistiques). Aucune donnée personnelle ne lui est transmise.
 
@@ -134,12 +134,13 @@ Nous ne partageons aucune donnée avec :
 
 À la **suppression du compte** (via Réglages → Supprimer mon compte), vos données personnelles sont **effacées de façon irréversible** côté Firebase, conformément à l'article 17 du RGPD : compte, cartes, pronostics, compositions, amis, messages privés, progression et historiques.
 
-**Quatre exceptions, et nous préférons vous les dire :**
+**Cinq exceptions, et nous préférons vous les dire :**
 
 | Ce qui subsiste | Pourquoi | Combien de temps |
 |---|---|---|
 | Les **justificatifs d'achat** | Obligation comptable et fiscale — l'article 17.3(b) du RGPD prévoit expressément ce cas | Durée légale de conservation |
 | Vos **messages déjà publiés dans une ligue qui continue sans vous** | Les effacer trouerait la conversation des autres membres | Purge automatique à 30 jours |
+| Votre **ligne de classement dans une ligue encore en cours** | La retirer fausserait le résultat des autres participants. Elle est **anonymisée en « Compte supprimé »** | Jusqu'à la fin de cette ligue |
 | Votre **place au palmarès d'une saison terminée** | C'est l'histoire commune du jeu ; la réécrire changerait le classement des autres joueurs. Seules des informations **déjà publiques** y figurent (pseudonyme, hauteur atteinte, palier) | Conservé |
 | Des **statistiques agrégées et anonymisées** | Elles ne sont plus rattachables à vous | Conservé |
 
@@ -217,4 +218,4 @@ Pour toute question ou demande :
 
 ---
 
-*PronoGo est édité par **Mehdi Bouhaouala**, entrepreneur individuel (auto-entrepreneur), domicilié à Courbevoie, France. L'application est gratuite à l'usage, avec des achats intégrés optionnels (packs, boosts et abonnements via Google Play / App Store) et de la publicité (Google AdMob — native ads et rewarded video volontaires). Cette Politique sera mise à jour si le statut éditeur évolue (société) ou si de nouvelles fonctionnalités payantes sont introduites.*
+*PronoGo est édité par **Mehdi Bouhaouala**, entrepreneur individuel (auto-entrepreneur), domicilié à Courbevoie, France. L'application est gratuite à l'usage, avec des achats intégrés optionnels (monnaies virtuelles et lots de jeu via Google Play / App Store, tous consommables — aucun abonnement) et de la publicité (Google AdMob — native ads et rewarded video volontaires). Cette Politique sera mise à jour si le statut éditeur évolue (société) ou si de nouvelles fonctionnalités payantes sont introduites.*

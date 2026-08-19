@@ -6,7 +6,7 @@ description: How to delete your PronoGo account and associated data.
 
 # Account Deletion — PronoGo
 
-**Last updated**: June 11, 2026
+**Last updated**: August 19, 2026
 
 [← Back to home](../../) · [Version française](../delete_account_fr/)
 
@@ -21,7 +21,7 @@ This page explains how to delete your **PronoGo** account (an app published by *
 3. Tap **"Delete my account"**.
 4. Confirm the deletion.
 
-Deletion is **immediate and irreversible**. Four categories of data remain nonetheless, for legal reasons or because they belong to other players: they are listed in section 4.
+Deletion is **immediate and irreversible**. Five categories of data remain nonetheless, for legal reasons or because they belong to other players: they are listed in section 4.
 
 > ⚠️ **Uninstalling the app does NOT delete your account** or your data. Use the procedure above, or the email request below.
 
@@ -35,8 +35,8 @@ When your account is deleted, the following is **permanently removed**:
 
 - your sign-in account (email, credentials, including Google/Apple sign-in);
 - your profile (display name, favorite team, level, XP, badges);
-- your game data: cards, decks, predictions, progression, virtual currencies (PronoCoins, Golards), mini-games, mythic cards;
-- your league participations and rankings (your name appears as "Deleted account" in past leagues);
+- your game data: cards, decks, predictions, progression, virtual currencies (PronoCoins, Goalards), mini-games, mythic cards;
+- your league participations and your rankings — with one exception, described in section 4: your standings row in a league **still in progress** is kept, anonymized as "Deleted account";
 - your referral links (friend code);
 - images you uploaded (league logos);
 - your push notification token.
@@ -45,13 +45,15 @@ Virtual currencies and unconsumed purchases are **lost without compensation** (s
 
 ## 4. Data that is kept
 
-The following is kept for a limited time, in line with our legal obligations:
+Five categories remain — either because the law requires it, or because they also belong to the other players. These are exactly the five exceptions listed in our [Privacy Policy](../privacy_en/):
 
 - **in-app purchase (IAP) records**: kept in a form dissociated from your game profile, for accounting, tax and anti-fraud purposes, for the legally required duration;
-- **anonymized, aggregated usage statistics** (not linkable to you);
 - **messages you already posted in a league that carries on without you**: erasing them would leave holes in other members' conversation. They are purged automatically after **30 days**;
+- **your standings row in a league still in progress**: removing it would distort the result for the other participants. It is **anonymized as "Deleted account"** and disappears when that league ends;
 - **your place in a finished season's hall of fame**: it is the shared history of the game, and rewriting it would change other players' standings. Only **already public** information appears there (display name, height reached, tier);
-- technical backups are purged within **30 days**.
+- **anonymized, aggregated usage statistics** (not linkable to you).
+
+Finally, independently of these five categories, technical backups are purged within **30 days**.
 
 ## 5. Contact
 
