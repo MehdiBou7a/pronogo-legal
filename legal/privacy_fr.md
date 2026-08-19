@@ -62,7 +62,7 @@ Dans tous les cas :
 
 Si vous effectuez un achat intégré (pack, boost, abonnement), la transaction est **entièrement traitée par Google Play ou l'App Store**. Nous **ne voyons jamais et ne stockons jamais** votre numéro de carte bancaire ni vos coordonnées de paiement.
 
-Nous recevons et conservons uniquement : l'identifiant du produit acheté, un jeton/identifiant de transaction fourni par la plateforme (pour vérifier l'achat et créditer votre compte), la date et l'état de la transaction. Pour les abonnements, nous conservons la date d'échéance afin d'appliquer vos avantages (ex : suppression des publicités).
+Nous recevons et conservons uniquement : l'identifiant du produit acheté, un jeton/identifiant de transaction fourni par la plateforme (pour vérifier l'achat et créditer votre compte), la date et l'état de la transaction. 
 
 ### 2.5 Données que nous NE collectons PAS
 
@@ -98,7 +98,7 @@ L'Application affiche des publicités via **Google AdMob** : publicités natives
 
 Si vous consentez, AdMob peut utiliser votre **identifiant publicitaire** (Android Advertising ID / Apple IDFA) pour personnaliser les annonces. Vous pouvez aussi réinitialiser cet identifiant ou désactiver la personnalisation depuis les Réglages de votre appareil → Confidentialité → Publicités.
 
-Les utilisateurs disposant d'un **abonnement « Sans pub »** ne voient aucune publicité.
+L'Application ne propose actuellement **aucun abonnement** : tous les achats intégrés sont des achats uniques.
 
 ---
 
@@ -132,7 +132,18 @@ Nous ne partageons aucune donnée avec :
 | Logs techniques et de sécurité (serveur) | Jusqu'à 90 jours |
 | Justificatifs d'achats intégrés (transactions IAP) | Durée légale applicable (obligations comptables, fiscales et anti-fraude), y compris après suppression du compte |
 
-À la **suppression du compte** (via Réglages → Supprimer mon compte), **vos données personnelles sont effacées définitivement et immédiatement** côté Firebase, en conformité avec l'article 17 du RGPD — à l'exception des justificatifs d'achats conservés pour la durée légale et de statistiques anonymisées agrégées (non rattachables à vous). Voir notre page dédiée : [Suppression de compte](../delete_account_fr/).
+À la **suppression du compte** (via Réglages → Supprimer mon compte), vos données personnelles sont **effacées de façon irréversible** côté Firebase, conformément à l'article 17 du RGPD : compte, cartes, pronostics, compositions, amis, messages privés, progression et historiques.
+
+**Quatre exceptions, et nous préférons vous les dire :**
+
+| Ce qui subsiste | Pourquoi | Combien de temps |
+|---|---|---|
+| Les **justificatifs d'achat** | Obligation comptable et fiscale — l'article 17.3(b) du RGPD prévoit expressément ce cas | Durée légale de conservation |
+| Vos **messages déjà publiés dans une ligue qui continue sans vous** | Les effacer trouerait la conversation des autres membres | Purge automatique à 30 jours |
+| Votre **place au palmarès d'une saison terminée** | C'est l'histoire commune du jeu ; la réécrire changerait le classement des autres joueurs. Seules des informations **déjà publiques** y figurent (pseudonyme, hauteur atteinte, palier) | Conservé |
+| Des **statistiques agrégées et anonymisées** | Elles ne sont plus rattachables à vous | Conservé |
+
+Tout le reste part. Voir notre page dédiée : [Suppression de compte](../delete_account_fr/).
 
 ---
 
@@ -142,7 +153,7 @@ Conformément au Règlement (UE) 2016/679, vous disposez des droits suivants :
 
 - **Droit d'accès** : consulter les données que nous avons sur vous.
 - **Droit de rectification** : modifier votre pseudo, email, etc.
-- **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. Suppression immédiate et irréversible ([instructions détaillées](../delete_account_fr/)).
+- **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. La suppression est irréversible ; les quatre exceptions sont listées en section 5 ([instructions détaillées](../delete_account_fr/)).
 - **Droit à la portabilité** : demander un export de vos données par email à `pronogo.dev@gmail.com`.
 - **Droit d'opposition** : refuser certains traitements (ex : notifications push, désactivables dans les Réglages).
 - **Droit de retirer votre consentement** : à tout moment, notamment pour la publicité personnalisée (Réglages de l'Application ou Réglages de votre appareil).

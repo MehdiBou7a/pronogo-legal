@@ -62,7 +62,7 @@ In all cases:
 
 If you make an in-app purchase (pack, boost, subscription), the transaction is **entirely processed by Google Play or the App Store**. We **never see and never store** your card number or payment details.
 
-We receive and keep only: the identifier of the purchased product, a transaction token/identifier provided by the platform (to verify the purchase and credit your account), the date, and the transaction state. For subscriptions, we keep the expiry date in order to apply your benefits (e.g., ad removal).
+We receive and keep only: the identifier of the purchased product, a transaction token/identifier provided by the platform (to verify the purchase and credit your account), the date, and the transaction state. 
 
 ### 2.5 Data we do NOT collect
 
@@ -98,7 +98,7 @@ The Application displays ads via **Google AdMob**: native ads integrated into th
 
 If you consent, AdMob may use your **advertising identifier** (Android Advertising ID / Apple IDFA) to personalize ads. You can also reset this identifier or disable personalization from your device Settings → Privacy → Ads.
 
-Users with an active **"Ad-free" subscription** see no ads at all.
+The Application currently offers **no subscription**: all in-app purchases are one-time purchases.
 
 ---
 
@@ -132,7 +132,18 @@ We do not share any data with:
 | Technical and security logs (server) | Up to 90 days |
 | In-app purchase records (IAP transactions) | Legally required duration (accounting, tax and anti-fraud obligations), including after account deletion |
 
-Upon **account deletion** (via Settings → Delete my account), **your personal data is permanently and immediately erased** on the Firebase side, in compliance with Article 17 of the GDPR — except for purchase records kept for the legally required duration and anonymized, aggregated statistics (not linkable to you). See our dedicated page: [Account Deletion](../delete_account_en/).
+Upon **account deletion** (via Settings → Delete my account), your personal data is **irreversibly erased** on the Firebase side, in compliance with Article 17 of the GDPR: account, cards, predictions, line-ups, friends, private messages, progress and history.
+
+**Four exceptions, and we would rather tell you about them:**
+
+| What remains | Why | For how long |
+|---|---|---|
+| **Purchase records** | Accounting and tax obligation — Article 17.3(b) of the GDPR expressly covers this case | Statutory retention period |
+| Messages you **already posted in a league that carries on without you** | Erasing them would leave holes in other members' conversation | Automatically purged after 30 days |
+| Your **place in a finished season's hall of fame** | It is the shared history of the game; rewriting it would change other players' standings. Only **already public** information appears there (display name, height reached, tier) | Kept |
+| **Aggregated, anonymized statistics** | They are no longer linkable to you | Kept |
+
+Everything else goes. See our dedicated page: [Account Deletion](../delete_account_en/).
 
 ---
 
@@ -142,7 +153,7 @@ In accordance with Regulation (EU) 2016/679, you have the following rights:
 
 - **Right of access**: see the data we have about you.
 - **Right of rectification**: modify your nickname, email, etc.
-- **Right to erasure ("right to be forgotten")**: exercise via Settings → Delete my account. Immediate and irreversible deletion ([detailed instructions](../delete_account_en/)).
+- **Right to erasure ("right to be forgotten")**: exercise via Settings → Delete my account. Deletion is irreversible; the four exceptions are listed in section 5 ([detailed instructions](../delete_account_en/)).
 - **Right to portability**: request an export of your data by email to `pronogo.dev@gmail.com`.
 - **Right to object**: refuse certain processing (e.g., push notifications, can be disabled in Settings).
 - **Right to withdraw consent**: at any time, in particular for personalized advertising (Application Settings or your device Settings).

@@ -21,7 +21,7 @@ Cette page explique comment supprimer votre compte **PronoGo** (application édi
 3. Touchez **« Supprimer mon compte »**.
 4. Confirmez la suppression.
 
-La suppression est **immédiate et définitive**.
+La suppression est **immédiate et irréversible**. Quatre catégories de données subsistent malgré tout, pour des raisons légales ou parce qu'elles appartiennent à d'autres joueurs : elles sont listées en section 4.
 
 > ⚠️ **Désinstaller l'application ne supprime PAS votre compte** ni vos données. Utilisez la procédure ci-dessus, ou la demande par email ci-dessous.
 
@@ -49,6 +49,8 @@ Sont conservées pour une durée limitée, conformément à nos obligations lég
 
 - **les justificatifs d'achats intégrés (IAP)** : conservés sous forme dissociée de votre profil de jeu, à des fins comptables, fiscales et de lutte contre la fraude, pendant la durée légale applicable ;
 - **des statistiques d'usage anonymisées et agrégées** (non rattachables à votre personne) ;
+- **les messages que vous avez déjà publiés dans une ligue qui continue sans vous** : les effacer trouerait la conversation des autres membres. Ils sont purgés automatiquement au bout de **30 jours** ;
+- **votre place au palmarès d'une saison terminée** : c'est l'histoire commune du jeu, et la réécrire changerait le classement des autres joueurs. Seules des informations **déjà publiques** y figurent (pseudonyme, hauteur atteinte, palier) ;
 - les sauvegardes techniques sont purgées sous **30 jours**.
 
 ## 5. Contact
