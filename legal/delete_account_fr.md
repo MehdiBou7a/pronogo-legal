@@ -6,7 +6,7 @@ description: Comment supprimer votre compte PronoGo et vos données associées.
 
 # Suppression de compte — PronoGo
 
-**Dernière mise à jour** : 19 août 2026
+**Dernière mise à jour** : 29 août 2026
 
 [← Retour à l'accueil](../../) · [English version](../delete_account_en/)
 
@@ -39,7 +39,7 @@ Lors de la suppression de votre compte, sont **définitivement supprimés** :
 - vos participations aux ligues et vos classements — à une exception près, décrite en section 4 : votre ligne de classement dans une ligue **encore en cours** est conservée, anonymisée en « Compte supprimé » ;
 - vos liens de parrainage (code ami) ;
 - les signalements que vous avez déposés, et votre liste de joueurs bloqués ;
-- les images que vous avez importées (logos de ligue) ;
+- les images de cartes que vous avez publiées en partage, ainsi que les éventuelles couvertures de ligue importées avant l'arrêt de cette fonctionnalité le 19 août 2026 ;
 - votre token de notifications push.
 
 Les monnaies virtuelles et achats non consommés sont **perdus sans contrepartie** (voir CGU, section 6.3).

@@ -6,7 +6,7 @@ description: How to delete your PronoGo account and associated data.
 
 # Account Deletion — PronoGo
 
-**Last updated**: August 19, 2026
+**Last updated**: August 29, 2026
 
 [← Back to home](../../) · [Version française](../delete_account_fr/)
 
@@ -39,7 +39,7 @@ When your account is deleted, the following is **permanently removed**:
 - your league participations and your rankings — with one exception, described in section 4: your standings row in a league **still in progress** is kept, anonymized as "Deleted account";
 - your referral links (friend code);
 - the reports you filed, and your list of blocked players;
-- images you uploaded (league logos);
+- the card images you published when sharing, along with any league cover images uploaded before that feature was switched off on August 19, 2026;
 - your push notification token.
 
 Virtual currencies and unconsumed purchases are **lost without compensation** (see Terms of Service, section 6.3).

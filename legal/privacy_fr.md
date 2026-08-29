@@ -6,8 +6,8 @@ description: Comment PronoGo collecte, utilise et protège vos données personne
 
 # Politique de confidentialité — PronoGo
 
-**Dernière mise à jour** : 19 août 2026
-**Version** : 1.3
+**Dernière mise à jour** : 29 août 2026
+**Version** : 1.4
 
 [← Retour à l'accueil](../../) · [English version](../privacy_en/)
 
@@ -51,6 +51,8 @@ Dans tous les cas :
 - **Signalements** : lorsque vous signalez un message ou le profil d'un joueur, nous enregistrons un dossier de modération qui contient **votre identifiant de signalant ET celui de la personne signalée**, la ligue et le message concernés, le motif que vous saisissez, et — pour un signalement de profil — le **pseudonyme public de la personne signalée** au moment du signalement. Un dossier de signalement porte donc des données sur **deux** personnes.
 - **Liste des joueurs que vous avez bloqués** : pour chaque joueur bloqué, son identifiant et le **pseudonyme qu'il portait au moment du blocage** (50 au maximum). Cette liste n'est visible que par vous.
 - **Parrainage (code ami)** : si vous saisissez le code d'un parrain (ou si quelqu'un saisit le vôtre), le lien parrain/filleul est enregistré et votre **pseudonyme est visible par votre parrain** (et réciproquement) dans son suivi de parrainage. Aucune autre donnée personnelle n'est partagée via le parrainage.
+- **Image de carte que vous publiez** : lorsque vous partagez une carte, l'image **générée par l'Application** (ce n'est pas une photo de votre appareil) est déposée sur nos serveurs à une adresse **publique**, construite à partir de votre identifiant technique et de celui de la carte. Toute personne qui reçoit le lien — et les robots d'aperçu de WhatsApp, X ou Facebook — peuvent l'afficher sans être connectées. Le dossier ne peut pas être parcouru : on n'accède à une image qu'en connaissant son adresse exacte. L'image est écrasée à chaque nouveau partage, effacée automatiquement au bout de 30 jours, et supprimée avec votre compte.
+- **Demande d'assistance** : lorsque vous nous écrivez depuis l'Application, nous enregistrons votre message (1 000 caractères au maximum) accompagné du contexte technique rempli automatiquement — version de l'Application, plateforme, langue et votre identifiant — pour pouvoir vous répondre.
 
 ### 2.3 Données techniques
 
@@ -59,6 +61,7 @@ Dans tous les cas :
 - **Adresse IP** : collectée par Firebase pour des raisons de sécurité (anti-abus) et de géolocalisation pays (compliance store).
 - **Type d'appareil, OS, version de l'application**.
 - **Rapports de crash (Firebase Crashlytics)** : en cas de plantage, un rapport technique est envoyé (modèle d'appareil, version OS et app, état de l'application au moment du crash, traces techniques). Ces rapports servent uniquement à corriger les bugs.
+- **Traces de performance (Firebase Performance)** : durée de démarrage de l'Application et durée des appels réseau, sans aucun contenu de ce qui est échangé. Elles ne servent qu'à repérer les lenteurs.
 - **Identifiant publicitaire** (Android Advertising ID / Apple IDFA) : utilisé par Google AdMob pour la diffusion publicitaire, selon votre consentement (voir section 4).
 
 ### 2.4 Données de transaction (achats intégrés)
@@ -86,8 +89,10 @@ Vos données sont utilisées exclusivement pour :
 3. **Système social** : afficher votre pseudo dans les ligues, gérer la liste d'amis, les classements amis et le parrainage.
 4. **Traiter vos achats intégrés** : vérifier les transactions auprès de Google Play / App Store, créditer les éléments achetés, prévenir la fraude, et satisfaire nos obligations comptables et fiscales.
 5. **Sécuriser le service** : détection d'abus, anti-cheat, rate limiting.
-6. **Améliorer l'application** : analyse anonymisée d'usage (Firebase Analytics), correction des bugs (Crashlytics).
+6. **Améliorer l'application** : mesure d'audience (Firebase Analytics), rapports de plantage (Crashlytics) et traces de performance (Performance Monitoring). **Ces trois mesures sont rattachées à votre identifiant de compte** — nous ne les présentons donc pas comme anonymes. Les rapports de plantage, eux, ne portent qu'un **préfixe** de cet identifiant : assez pour recoller un incident, pas pour vous désigner.
 7. **Monétisation par publicité** : affichage de publicités via Google AdMob (native ads et rewarded video volontaires). Voir section 4 pour le consentement.
+
+**Votre accord est demandé d'abord, et vous pouvez le reprendre.** Ces trois outils de mesure démarrent **éteints** et n'envoient rien tant que vous n'avez pas accepté. Vous pouvez retirer cet accord à tout moment : **Réglages → « Mesure d'audience et diagnostics »**. Le retrait prend effet immédiatement sur l'appareil et vaut pour tous les démarrages suivants ; il n'exige ni de nous écrire, ni de supprimer votre compte.
 
 Nous **ne vendons jamais** vos données à des tiers. Les publicités diffusées via AdMob sont **filtrées** : nous bloquons les catégories sensibles (paris en argent réel concurrents, contenu adulte, dating, politique, religion, etc.).
 
@@ -101,6 +106,12 @@ L'Application affiche des publicités via **Google AdMob** : publicités natives
 
 Si vous consentez, AdMob peut utiliser votre **identifiant publicitaire** (Android Advertising ID / Apple IDFA) pour personnaliser les annonces. Vous pouvez aussi réinitialiser cet identifiant ou désactiver la personnalisation depuis les Réglages de votre appareil → Confidentialité → Publicités.
 
+**Vidéos récompensées** : lorsque vous regardez une vidéo en échange d'une récompense, votre **identifiant de compte** est transmis au réseau publicitaire de Google, qui nous le renvoie signé. Il ne sert qu'à une chose : vérifier côté serveur que la récompense revient bien à la bonne personne, et empêcher qu'elle soit réclamée deux fois. Il n'est pas utilisé pour du ciblage publicitaire.
+
+**Position approximative** : nous ne demandons *aucune* autorisation de localisation, et l'Application ne contient aucun composant de géolocalisation. Le module publicitaire de Google **estime néanmoins une région** à partir de votre adresse IP pour choisir les annonces. C'est la seule forme de localisation en jeu, et c'est pourquoi nos fiches de confidentialité la déclarent.
+
+**Sur iPhone et iPad — autorisation de suivi** : Apple exige une autorisation distincte de la nôtre (*App Tracking Transparency*). Si vous l'accordez, l'identifiant publicitaire de votre appareil (IDFA) peut être utilisé pour vous suivre d'une application ou d'un site à l'autre, y compris chez d'autres sociétés. Si vous la refusez, il ne l'est pas. Ce choix se change à tout moment dans **Réglages iOS → Confidentialité et sécurité → Suivi**. C'est cette autorisation qui explique la mention « Données utilisées pour vous suivre » sur notre fiche App Store.
+
 L'Application ne propose actuellement **aucun abonnement** : tous les achats intégrés sont des achats uniques.
 
 ---
@@ -111,7 +122,8 @@ L'Application ne propose actuellement **aucun abonnement** : tous les achats int
 
 - **Google Firebase** (Authentication, Firestore, Cloud Functions, Cloud Messaging, App Check, Analytics, Crashlytics) — hébergement EU (région `europe-west9`), conformité RGPD.
 - **Google Play / Apple App Store** — traitement des achats intégrés. Ces plateformes traitent vos données de paiement selon leurs propres politiques de confidentialité ([Google](https://policies.google.com/privacy), [Apple](https://www.apple.com/legal/privacy/)).
-- **Google AdMob** — diffusion de publicités dans l'Application. Reçoit, selon votre consentement, votre identifiant publicitaire et des données techniques (IP, type de device, langue) pour le ciblage publicitaire. Aucune donnée personnelle nominative (email, nom) n'est transmise.
+- **Google AdMob** — diffusion de publicités dans l'Application. Reçoit, selon votre consentement, votre identifiant publicitaire et des données techniques (IP, type de device, langue) pour le ciblage publicitaire, ainsi qu'une **région estimée depuis votre adresse IP**. Il reçoit également votre **identifiant de compte** lorsque vous regardez une vidéo récompensée, pour la seule vérification de cette récompense (voir section 4). **Ni votre adresse email ni votre nom ne lui sont transmis.**
+- **Brevo** (société établie dans l'Union européenne) — acheminement de nos emails : vérification d'adresse, message de bienvenue, réponses à vos demandes d'assistance, alertes internes de modération. Reçoit votre adresse email et le contenu du message envoyé. Hébergement dans l'Union européenne, transport chiffré.
 - **api-football.com** — fournit les données des matchs (composition équipes, scores, résultats, statistiques). Aucune donnée personnelle ne lui est transmise.
 
 ### 5.2 Limites du partage commercial
@@ -137,6 +149,8 @@ Nous ne partageons aucune donnée avec :
 | Messages de discussion de ligue | **30 jours au maximum**, et seuls les **200 derniers messages** de chaque ligue sont conservés (purge automatique quotidienne) |
 | Liste des joueurs que vous avez bloqués | Tant que votre compte existe, ou jusqu'à ce que vous leviez le blocage |
 | Dossiers de signalement | **90 jours**, par purge automatique. Cette durée n'est pas arbitraire : le dossier sert de verrou contre les signalements répétés, et le message qu'il vise vit au maximum 30 jours — trois fois cette durée laisse le temps de l'examen sans conserver une trace devenue invérifiable. Un dossier que vous avez déposé est en outre supprimé lorsque vous supprimez votre compte, et un signalement visant votre profil l'est lorsque vous supprimez le vôtre |
+| Image de carte que vous publiez | Écrasée à chaque nouveau partage, purgée automatiquement au bout de **30 jours**, et supprimée avec votre compte |
+| Demandes d'assistance | Conservées le temps de traiter la demande et d'en garder la trace en cas de litige |
 
 À la **suppression du compte** (via Réglages → Supprimer mon compte), vos données personnelles sont **effacées de façon irréversible** côté Firebase, conformément à l'article 17 du RGPD : compte, cartes, pronostics, compositions, amis, messages privés, progression et historiques.
 
@@ -164,7 +178,7 @@ Conformément au Règlement (UE) 2016/679, vous disposez des droits suivants :
 - **Droit à l'effacement (« droit à l'oubli »)** : exercer via Réglages → Supprimer mon compte. La suppression est irréversible ; les six exceptions sont listées en section 6 ([instructions détaillées](../delete_account_fr/)).
 - **Droit à la portabilité** : demander un export de vos données par email à `pronogo.dev@gmail.com`.
 - **Droit d'opposition** : refuser certains traitements (ex : notifications push, désactivables dans les Réglages).
-- **Droit de retirer votre consentement** : à tout moment, notamment pour la publicité personnalisée (Réglages de l'Application ou Réglages de votre appareil).
+- **Droit de retirer votre consentement** : à tout moment, et par le même geste que celui qui l'a donné. Pour la **mesure d'audience, les rapports de plantage et les traces de performance** : Réglages → « Mesure d'audience et diagnostics ». Pour la **publicité personnalisée** : Réglages → « Préférences publicitaires » (rangée présente là où la réglementation européenne l'exige), ou les Réglages de votre appareil. Sur iPhone et iPad, l'autorisation de suivi se retire dans Réglages iOS → Confidentialité et sécurité → Suivi.
 - **Droit d'introduire une réclamation** auprès de la CNIL (www.cnil.fr).
 
 Pour exercer ces droits, contactez-nous à **pronogo.dev@gmail.com**.
@@ -203,6 +217,7 @@ PronoGo stocke localement sur votre appareil :
 - Cache offline des données utilisateur (Firestore persistence).
 - Préférences (langue, thème, opt-in notifications, choix de consentement publicitaire).
 - Streak quotidien et compteurs publicitaires (SharedPreferences).
+- Votre choix concernant la mesure d'audience et les diagnostics. Il est enregistré **sur l'appareil**, et non sur votre compte : les outils concernés n'ont qu'un seul interrupteur par installation, et changer de compte sur le même téléphone ne les remet pas en marche.
 
 Le SDK Google Mobile Ads (AdMob) peut utiliser des identifiants techniques pour le ciblage publicitaire, selon votre consentement (voir section 4). Vous pouvez réinitialiser votre identifiant publicitaire ou désactiver la personnalisation depuis les Réglages de votre appareil → Confidentialité → Publicités.
 
